@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tropic Treasure Trade | Naturally Beyond Ordinary</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="js/gsap.min.js"></script>
+    <script src="js/ScrollTrigger.min.js"></script>
+    <script src="js/lenis.min.js"></script>
+</head>
+<body>
+
+
+    <nav id="navbar">
+        <div class="nav-logo">TTT</div>
+        <div class="nav-links">
+            <a href="#hero">Origin</a>
+            <a href="#story">Story</a>
+            <a href="#collection">Collection</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="nav-cta">Partner with Us</div>
+    </nav>
+
+    <main>
+        <!-- Page 1: Hero Entrance -->
+        <section id="hero" class="panel">
+            <div class="hero-bg">
+                <img src="assets/hero.png" alt="Kerala Backwater Sunrise">
+            </div>
+            <div class="hero-content">
+                <img src="assets/logo.png" alt="Tropic Treasure Logo" class="main-logo">
+                <h2 class="sub-headline">Naturally Beyond Ordinary</h2>
+                <h1 class="main-title">THE BRIDGE TO THE TROPICS</h1>
+                <p class="heritage">Kerala Heritage 🇮🇳 | British Excellence 🇬🇧</p>
+                <div class="scroll-indicator">
+                    <span>Discover the Soul</span>
+                    <div class="line"></div>
+                </div>
+            </div>
+            <div class="hero-bottom-info">
+                <div class="info-block">
+                    <h3>Soil to Soul</h3>
+                    <p>Ancient spice heritage meets modern wellness seekers.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Page 2: Sourcing Story -->
+        <section id="story" class="panel">
+            <div class="story-layout">
+                <div class="story-visual">
+                    <img src="assets/farmer.png" alt="Wayanad spice farmer" class="farmer-img">
+                    <div class="family-touch">
+                        <img src="assets/logo.png" alt="Mother Director" class="polaroid-img">
+                        <span>Family Owned - Kerala Homestead</span>
+                    </div>
+                </div>
+                <div class="story-text">
+                    <span class="section-tag">Our Story</span>
+                    <h2>FROM SOIL TO SOUL</h2>
+                    <p class="main-p">Tropic Treasure was born from a simple truth: the world’s greatest luxuries are sun, soil, and the hands that tend them.</p>
+                    <p>Rooted in the Western Ghats, Kerala, we bridge the gap. We don’t just move cargo; we move culture. By working directly with 18,000+ organic small-holder farmers, we ensure every gram tells a story.</p>
+                    
+                    <div class="pillars">
+                        <div class="pillar">
+                            <span class="pillar-num">01</span>
+                            <h4>Maximum Potency</h4>
+                            <p>Small batches to ensure peak essential oils.</p>
+                        </div>
+                        <div class="pillar">
+                            <span class="pillar-num">02</span>
+                            <h4>The 18,000+ Pact</h4>
+                            <p>Organic cooperatives, fair trade, soil health.</p>
+                        </div>
+                        <div class="pillar">
+                            <span class="pillar-num">03</span>
+                            <h4>Radical Transparency</h4>
+                            <p>100% natural, pesticide-free, no shortcuts.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Page 3: Signature Collection -->
+        <section id="collection" class="panel">
+            <div class="collection-header">
+                <span class="section-tag">Signature Collection</span>
+                <h2>THE TREASURE</h2>
+            </div>
+            
+            <div class="collection-grid">
+                <!-- Cardamom -->
+                <div class="product-card" id="cardamom-card">
+                    <div class="product-visual">
+                        <img src="assets/cardamom.png" alt="Green Cardamom">
+                    </div>
+                    <div class="product-info">
+                        <h3>Idukki Jumbo Cardamom</h3>
+                        <p class="origin">The Queen of Spices | 8mm+</p>
+                        <p class="profile">Hand-selected jumbo pods with vibrant green hue and intense aromatic oils.</p>
+                        <div class="best-for">Best For: Artisan tea, high-end baking, Ayurvedic rituals.</div>
+                    </div>
+                </div>
+                
+                <!-- Black Pepper -->
+                <div class="product-card" id="pepper-card">
+                    <div class="product-visual">
+                        <img src="assets/pepper.png" alt="Black Pepper">
+                    </div>
+                    <div class="product-info">
+                        <h3>Tellicherry Black Pepper</h3>
+                        <p class="origin">Extra Bold Peppercorns | Wayanad</p>
+                        <p class="profile">Harvested at peak maturity for bold, citrusy heat and high piperine.</p>
+                        <div class="best-for">Best For: Gourmet restaurants and spice connoisseurs.</div>
+                    </div>
+                </div>
+
+                <!-- Other Products (Text only to keep layout clean as per strategy) -->
+                 <div class="product-list-small">
+                    <div class="small-prod">
+                        <h4>The Kollam Cashew (W320)</h4>
+                        <p>Exceptionally creamy. Naturally high in heart-healthy oleic acid.</p>
+                    </div>
+                    <div class="small-prod">
+                        <h4>Ceylon Cinnamon (C5 Special)</h4>
+                        <p>Delicate, multi-layered quills. Lower coumarin for safe wellness.</p>
+                    </div>
+                    <div class="small-prod">
+                        <h4>Wayanad Sun-Dried Ginger</h4>
+                        <p>Fibre-free, sharp, warming. Traditionally sun-dried.</p>
+                    </div>
+                 </div>
+            </div>
+            
+            <canvas id="water-line"></canvas>
+        </section>
+
+        <!-- Page 4: Trust & Contact -->
+        <section id="contact" class="panel">
+            <div class="trust-bg">
+                <img src="assets/houseboat.png" alt="Kerala Houseboat">
+            </div>
+            
+            <div class="trust-content">
+                <div class="trust-grid">
+                    <div class="trust-item">
+                        <div class="icon">🛡️</div>
+                        <h4>Dual-Lab Assurance</h4>
+                        <p>NABL (India) & Eurofins (UK) tested.</p>
+                    </div>
+                    <div class="trust-item">
+                        <div class="icon">📍</div>
+                        <h4>Traceability</h4>
+                        <p>Wayanad Social Service Society.</p>
+                    </div>
+                    <div class="trust-item">
+                        <div class="icon">📦</div>
+                        <h4>Retail Ready</h4>
+                        <p>Nitrogen-flushed, FSA-compliant.</p>
+                    </div>
+                    <div class="trust-item">
+                        <div class="icon">✔️</div>
+                        <h4>HACCP Certified</h4>
+                        <p>Seamless hygiene control.</p>
+                    </div>
+                </div>
+
+                <div class="contact-footer">
+                    <div class="contact-logo">TROPIC <span class="gold">TREASURE</span></div>
+                    <div class="contact-details">
+                        <p>57 Newtown Road, Brighton, BN3 7BA</p>
+                        <p>info@tropictreasure.co | @tropictreasure</p>
+                        <div class="qr-placeholder">
+                            <div class="qr-code"></div>
+                            <span>Scan for Website</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="heritage-bottom">
+                    <span class="flag">🇮🇳</span>
+                    <p>Kerala Heritage | British Excellence</p>
+                    <span class="flag">🇬🇧</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>

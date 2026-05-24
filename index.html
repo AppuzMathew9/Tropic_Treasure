@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Search Engine Optimization (SEO) Metadata -->
+  <title>Tropic Treasure | Premium Sourcing & Ethical Botanical Ecosystem</title>
+  <meta name="description" content="Tropic Treasure brings complete integrity to agricultural sourcing. From Kerala's Western Ghats to the UK shelves, we supply laboratory-tested, fully traceable black pepper, green cardamom, ginger, and botanicals.">
+  <meta name="keywords" content="Tropic Treasure, ethical spice sourcing, Tellicherry black pepper, green cardamom, Wayanad spice plantation, Kerala sourcing UK, food compliance, batch traceability">
+  
+  <!-- Global Styling & Typography -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Toast Notifications Wrapper -->
+  <div id="toast-container"></div>
+
+  <!-- Global Header Navigation -->
+  <header class="site-header" id="main-header">
+    <div class="container header-container">
+      
+      <!-- Brand Logo -->
+      <a href="#/" class="logo" id="header-logo-link">
+        Tropic Treasure
+        <span class="sublogo">Est. Kerala / UK</span>
+      </a>
+
+      <!-- Desktop & Mobile Navigation Links -->
+      <nav aria-label="Main Navigation" style="display: flex; align-items: center; gap: var(--spacing-md);">
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+          <span class="nav-toggle-bar"></span>
+        </button>
+        
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#/shop" class="nav-link" id="nav-link-shop">Shop</a></li>
+          <li><a href="#/our-story" class="nav-link" id="nav-link-story">Our Story</a></li>
+          <li><a href="#/recipes" class="nav-link" id="nav-link-recipes">Recipes</a></li>
+          <li><a href="#/journal" class="nav-link" id="nav-link-journal">Journal</a></li>
+          <li><a href="#/track" class="nav-link" id="nav-link-track">Track</a></li>
+        </ul>
+      </nav>
+
+      <!-- Right Side Actions (Sign In, Cart) -->
+      <div class="header-actions" style="display: flex; align-items: center; gap: 20px; font-family: var(--font-sans); font-size: 0.85rem; font-weight: 500;">
+        <a href="#/contact" class="nav-action-link" style="color: var(--color-text-dark); text-transform: uppercase; letter-spacing: 0.1em; font-size: 0.75rem;">Sign In</a>
+        <button onclick="showToast('Your Cart is packed with premium, light-protected botanicals.')" style="background: none; border: none; cursor: pointer; color: var(--color-text-dark); display: flex; align-items: center; position: relative;" aria-label="Cart">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+          <span id="cart-badge-count" style="position: absolute; top: -8px; right: -8px; background-color: var(--color-forest); color: var(--color-sand); font-size: 0.65rem; font-weight: bold; width: 15px; height: 15px; border-radius: 50%; display: flex; align-items: center; justify-content: center; border: 1px solid var(--color-sand);">0</span>
+        </button>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- SPA Active Viewport (Where dynamic page templates are compiled) -->
+  <main id="app-viewport" class="view-transition active">
+    <!-- Templates loaded dynamically by js/app.js -->
+  </main>
+
+  <!-- Global Symmetrical Footer -->
+  <footer class="site-footer" id="main-footer" style="background-color: var(--color-forest); color: var(--color-sand); border-top: 1px solid var(--color-border); padding: var(--spacing-lg) 0 var(--spacing-md) 0;">
+    <div class="container">
+      <div style="display: grid; grid-template-columns: 1.5fr 0.8fr 0.8fr 1.1fr; gap: var(--spacing-md);">
+        
+        <!-- Brand Info Column -->
+        <div>
+          <div class="footer-logo" style="margin-bottom: 10px; font-family: var(--font-serif); font-size: 1.6rem; color: var(--color-white); text-transform: uppercase; letter-spacing: 0.1em; line-height: 1;">
+            Tropic Treasure
+            <span class="sub" style="display: block; font-family: var(--font-sans); font-size: 0.65rem; letter-spacing: 0.25em; color: rgba(249, 248, 244, 0.5); margin-top: 5px;">From Soil to Shelf, Built to Be Trusted.</span>
+          </div>
+          <p style="color: rgba(249, 248, 244, 0.6); font-size: 0.82rem; line-height: 1.6; max-width: 380px; margin-top: 15px;">Premium tropical sourcing, scientific verification and full traceability from Kerala's Western Ghats to the UK.</p>
+        </div>
+
+        <!-- Explore Links -->
+        <div>
+          <h4 style="color: var(--color-white); font-family: var(--font-sans); text-transform: uppercase; font-size: 0.72rem; letter-spacing: 0.15em; margin-bottom: 20px; font-weight: 600;">Explore</h4>
+          <ul class="footer-nav-list" style="list-style: none; display: flex; flex-direction: column; gap: 10px; padding: 0;">
+            <li><a href="#/shop" style="color: rgba(249, 248, 244, 0.7); font-size: 0.82rem;">Shop</a></li>
+            <li><a href="#/wellness" style="color: rgba(249, 248, 244, 0.7); font-size: 0.82rem;">Wellness</a></li>
+            <li><a href="#/ingredients" style="color: rgba(249, 248, 244, 0.7); font-size: 0.82rem;">Ingredients</a></li>
+            <li><a href="#/journal" style="color: rgba(249, 248, 244, 0.7); font-size: 0.82rem;">Journal</a></li>
+            <li><a href="#/recipes" style="color: rgba(249, 248, 244, 0.7); font-size: 0.82rem;">Recipes</a></li>
+            <li><a href="#/tastymonials" style="color: rgba(249, 248, 244, 0.7); font-size: 0.82rem;">Tastymonials</a></li>
+          </ul>
+        </div>
+
+        <!-- Company Links -->
+        <div>
+          <h4 style="color: var(--color-white); font-family: var(--font-sans); text-transform: uppercase; font-size: 0.72rem; letter-spacing: 0.15em; margin-bottom: 20px; font-weight: 600;">Company</h4>
+          <ul class="footer-nav-list" style="list-style: none; display: flex; flex-direction: column; gap: 10px; padding: 0;">
+            <li><a href="#/our-story" style="color: rgba(249, 248, 244, 0.7); font-size: 0.82rem;">Our Story</a></li>
+            <li><a href="#/sustainability" style="color: rgba(249, 248, 244, 0.7); font-size: 0.82rem;">Sustainability</a></li>
+            <li><a href="#/trade" style="color: rgba(249, 248, 244, 0.7); font-size: 0.82rem;">Trade & Wholesale</a></li>
+            <li><a href="#/contact" style="color: rgba(249, 248, 244, 0.7); font-size: 0.82rem;">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Newsletter Column -->
+        <div>
+          <h4 style="color: var(--color-white); font-family: var(--font-sans); text-transform: uppercase; font-size: 0.72rem; letter-spacing: 0.15em; margin-bottom: 20px; font-weight: 600;">Newsletter</h4>
+          <form style="display: flex; height: 42px;" onsubmit="event.preventDefault(); showToast('Subscribed. Thank you for joining our notes from the Ghats.'); this.reset();">
+            <input type="email" placeholder="your@email.com" required style="flex-grow: 1; background: transparent; border: 1px solid rgba(249, 248, 244, 0.2); border-right: none; color: var(--color-sand); padding: 0 12px; font-family: var(--font-sans); font-size: 0.8rem; outline: none;">
+            <button type="submit" style="background-color: var(--color-spice); border: none; color: var(--color-forest); font-family: var(--font-sans); font-size: 0.72rem; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase; padding: 0 20px; cursor: pointer; transition: background 0.2s ease;">Join</button>
+          </form>
+        </div>
+
+      </div>
+
+      <!-- Footer Base Copyright Line -->
+      <div class="footer-bottom" style="border-top: 1px solid rgba(249, 248, 244, 0.1); margin-top: var(--spacing-lg); padding-top: var(--spacing-md); display: flex; justify-content: space-between; align-items: center; font-size: 0.72rem; color: rgba(249, 248, 244, 0.4);">
+        <div>&copy; 2026 Tropic Treasure Ltd. Kerala Heritage. British Excellence.</div>
+        <div>Tropic Treasure Exim OPC Pvt Ltd - Tropic Treasure Ltd (UK)</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Reusable Dynamic Spec Modal Window -->
+  <div class="modal-overlay" id="modal-overlay">
+    <div class="modal-content" id="modal-container">
+      <!-- Injected Dynamically by openProductModal() -->
+    </div>
+  </div>
+
+  <!-- Import Sourcing Database Elements -->
+  <script src="js/data.js"></script>
+  <!-- Import SPA Route & Controller script -->
+  <script src="js/app.js"></script>
+
+</body>
+</html>
