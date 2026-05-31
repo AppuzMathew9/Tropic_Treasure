@@ -778,7 +778,7 @@ function filterHomeProducts() {
     html += `
       <div class="product-card fade-in-up">
         <div class="product-card-img-wrapper" style="border-radius: 16px; overflow: hidden; position: relative; background-color: #E6DFD5; height: 320px; border: none;">
-          ${p.discount ? `<div class="discount-badge">${p.discount}</div>` : ''}
+          ${p.discount ? `<div class="product-discount-badge">${p.discount}</div>` : ''}
           <img src="${p.image}" alt="${p.name}" style="width:100%; height:100%; object-fit:cover; mix-blend-mode: multiply; transition: transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);">
         </div>
         <div style="padding-top: 16px; display: flex; flex-direction: column; flex-grow: 1;">
