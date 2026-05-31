@@ -7,7 +7,7 @@ const PRODUCTS_DB = [
     scientificName: "Piper nigrum",
     origin: "Wayanad, Kerala, India",
     category: "Dehydrated Ingredients",
-    image: "images/pouch_pepper.png",
+    image: "images/tellicherry_peppercorns_pouch.jpg",
     caption: "Premium Tellicherry TGSEB (Tellicherry Garbled Special Extra Bold) peppercorns, measuring over 4.75mm, showcasing high piperine density and complex citrus notes.",
     tagline: "The world's most sought-after peppercorn, ripened fully on the vine for maximum piperine content.",
     price: "£12.50",
