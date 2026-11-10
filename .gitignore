@@ -1,0 +1,2 @@
+# Exclude resource documents and marketing assets from being pushed to GitHub
+resources/
