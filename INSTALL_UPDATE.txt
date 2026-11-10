@@ -1,0 +1,1 @@
+Extract this ZIP into your existing website folder. Replace the HTML files, styles.css, website-updates.css, script.js and script.txt. Keep the existing assets folder. Open index.html from this updated folder. For hosting, upload these files to the same directory as index.html and replace existing files. This ZIP updates the files; it does not publish them to your live domain.

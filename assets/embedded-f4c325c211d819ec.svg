@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 120" preserveAspectRatio="none">
+<defs>
+<radialGradient id="dissolve" cx="68%" cy="49%" rx="48%" ry="47%"><stop stop-color="white" stop-opacity=".7"/><stop offset=".36" stop-color="white" stop-opacity=".4"/><stop offset=".7" stop-color="white" stop-opacity=".11"/><stop offset="1" stop-color="white" stop-opacity="0"/></radialGradient>
+<mask id="air"><rect width="1440" height="120" fill="url(#dissolve)"/></mask>
+<pattern id="veins" width="42" height="48" patternUnits="userSpaceOnUse" patternTransform="rotate(-18)">
+<g fill="none" stroke="#c9b477" stroke-width=".65"><path d="M21 0C0 12 0 29 21 45C42 29 42 12 21 0ZM21 0V45M21 10L8 19M21 20L6 30M21 29L14 37M21 10L34 19M21 20L36 30M21 29L28 37"/></g>
+</pattern>
+</defs>
+<g mask="url(#air)"><rect width="1440" height="120" fill="url(#veins)"/></g>
+</svg>

@@ -1,0 +1,636 @@
+/* Approved website updates: leadership, compact careers and extract enquiries. */
+.tt-leadership-grid{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:24px;margin-top:32px;align-items:stretch}
+.tt-leader{border:1px solid #9d6e2f40;background:#fffdf7;border-radius:14px;overflow:hidden;display:flex;align-items:center}
+.tt-leader>div{padding:28px}.tt-leader h3{font-family:'Roboto Slab',serif;color:#235129;font-size:22px;margin:0 0 10px}.tt-leader p{line-height:1.6;margin:0}
+.tt-leader-founder{flex-direction:column;align-items:stretch}.tt-leader-founder img{width:100%;height:300px;object-fit:cover;object-position:center 25%}
+.about-page #about-main>.tt-careers{position:relative;padding:30px 24px;background:#235129;color:#fffdf7;isolation:isolate}
+.about-page .tt-careers-inner{width:min(1000px,100%);grid-template-columns:1fr;background:transparent}
+.about-page .tt-careers-photo{display:none}.about-page .tt-careers-copy{padding:20px 10px;display:grid;grid-template-columns:1fr auto;gap:8px 32px;align-items:center}
+.about-page .tt-careers-kicker{grid-column:1;color:#ddc49b;margin:0;font-family:'Manrope',sans-serif}
+.about-page .tt-careers h2{grid-column:1;color:#fffdf7;font-family:'Roboto Slab',serif;font-size:clamp(22px,2.5vw,28px);margin:0}
+.about-page .tt-careers-copy>p:not(.tt-careers-kicker){grid-column:1;margin:0;color:#fffdf7;font-size:14px}
+.about-page .tt-careers-link{grid-column:2;grid-row:1/4;margin:0;color:#fffdf7;border-color:#ddc49b;align-self:center}
+.about-page .tt-careers::before,.about-page .tt-careers::after{height:20px;background:#f6f2e8;clip-path:polygon(0 0,100% 0,100% 30%,97% 65%,94% 38%,90% 70%,86% 35%,82% 60%,78% 30%,74% 68%,70% 40%,66% 75%,62% 35%,58% 65%,54% 30%,50% 70%,46% 38%,42% 65%,38% 32%,34% 75%,30% 35%,26% 62%,22% 30%,18% 70%,14% 38%,10% 65%,6% 35%,3% 70%,0 40%)}
+.tt-extract-request{margin:32px auto 0;padding:24px;border:1px solid #9d6e2f40;border-radius:12px;max-width:1100px;background:#f6f2e8}.tt-extract-request h3{font-family:'Roboto Slab',serif;color:#235129;margin-bottom:12px}.tt-extract-request p{margin-bottom:12px}
+@media(max-width:760px){.tt-leadership-grid{grid-template-columns:1fr}.tt-leader-founder img{height:320px}.about-page .tt-careers-copy{display:flex;gap:12px;padding:16px 0}.about-page .tt-careers-link{width:auto;text-align:left}.about-page #about-main>.tt-careers{padding:28px 24px}}
+
+/* Display the supplied retail images instead of inherited mockup backgrounds. */
+.products-page #collection .tt-kitchen-art{background-image:none!important;background-color:#f6f2e8!important}
+.products-page #collection .tt-kitchen-art>img{display:block!important;width:100%;height:100%;object-fit:contain;position:relative;z-index:2}
+.products-page #collection .tt-kitchen-art::before,.products-page #collection .tt-kitchen-art::after{content:none!important;display:none!important}
+
+/* Homepage hero buttons and keyboard-accessible playback control. */
+.forest-hero .tt-hero-actions .forest-cta {
+  background: #edbd60;
+  border: 1px solid #edbd60;
+  color: #142b1a;
+  text-transform: uppercase;
+}
+.forest-hero .tt-hero-actions .forest-cta:hover {
+  background: #f5cf80;
+}
+.forest-hero .tt-hero-actions .tt-hero-secondary {
+  background: rgba(5, 16, 10, .32);
+  border-color: #fff;
+  color: #fff;
+}
+.forest-hero .tt-hero-actions .tt-hero-secondary:hover {
+  background: rgba(5, 16, 10, .72);
+}
+.forest-hero .tt-hero-actions .forest-cta span {
+  flex: 0 0 20px;
+  width: 20px;
+  height: 20px;
+  border: 0;
+  font-size: 0;
+  background: currentColor;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M4 12h15m-6-6 6 6-6 6' fill='none' stroke='black' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center / contain no-repeat;
+}
+.forest-hero .forest-pause:not(:focus-visible) {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Align the current-page underline with the navigation label. */
+#tt-site-header nav .tt-nav-link[aria-current="page"] {
+  background: transparent;
+  position: relative;
+}
+#tt-site-header nav .tt-nav-link[aria-current="page"]::after {
+  content: "" !important;
+  display: block !important;
+  position: absolute !important;
+  left: 12px !important;
+  right: 12px !important;
+  bottom: 3px !important;
+  height: 2px !important;
+  background: #b98a35 !important;
+  transform: none !important;
+}
+#tt-site-header #mobile-menu .tt-nav-link[aria-current="page"] {
+  width: fit-content;
+}
+
+/* Homepage product showcase typography. */
+#products.tt-products .tt-products-intro {
+  max-width: 760px;
+  font-size: clamp(20px, 1.9vw, 26px);
+}
+#products.tt-products nav.tt-product-categories button {
+  font-size: clamp(22px, 2vw, 26px) !important;
+}
+#products.tt-products .tt-product-item .tt-product-label h3 {
+  font-size: clamp(22px, 2vw, 28px) !important;
+}
+#products.tt-products .tt-product-item .tt-product-label h3 small,
+#products.tt-products .tt-product-item .tt-botanical {
+  font-size: clamp(17px, 1.4vw, 19px) !important;
+}
+#products.tt-products .tt-products-note {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Why Tropic Treasure split feature. */
+main > #why-us.tt-confidence.tt-confidence-landscape {
+  container-type: inline-size;
+  padding-block-start: 0;
+}
+#why-us .tt-why-feature {
+  display: grid;
+  grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
+  gap: 0;
+  padding: 0;
+  position: relative;
+  margin-inline: calc((100% - 100cqw) / 2);
+  margin-bottom: clamp(20px, 3vw, 42px);
+  border: 0;
+}
+#why-us .tt-why-scene {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  min-height: 390px;
+  padding: clamp(24px, 4vw, 60px);
+}
+#why-us .tt-why-scene::before,
+#why-us .tt-why-scene::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  pointer-events: none;
+}
+#why-us .tt-why-scene::before {
+  inset: -14px;
+  background: #163b29 url('assets/forest-hero.jpg') center / cover no-repeat;
+}
+#why-us .tt-why-scene::after {
+  inset: 0;
+  background: linear-gradient(90deg, #071c14ec, #071c14a6 48%, #071c141a);
+}
+#why-us .tt-why-scene h2 {
+  font-family: Georgia, serif;
+  font-size: clamp(33px, 4vw, 61px);
+  line-height: 1.04;
+  letter-spacing: -.025em;
+  margin: 14px 0 20px;
+}
+#why-us .tt-why-scene h2 span,
+#why-us .tt-why-icon {
+  color: #efc36e;
+}
+#why-us .tt-why-scene strong {
+  display: inline-block;
+  margin-bottom: 8px;
+  font: 700 clamp(21px, 2.25vw, 31px)/1.15 Georgia, serif;
+  color: #fff8e9;
+}
+#why-us .tt-why-scene p:not(.eyebrow) {
+  max-width: 36ch;
+}
+#why-us .tt-why-feature .why-reasons {
+  align-self: stretch;
+  padding: 12px clamp(14px, 2vw, 30px);
+  background: #0b2e22;
+  border: 0;
+}
+#why-us .tt-why-feature .why-reason:last-child {
+  border-bottom: 0;
+}
+#why-us .tt-why-feature .why-reason summary {
+  display: grid;
+  grid-template-columns: auto 30px minmax(0, 1fr) 32px;
+  gap: clamp(8px, 1.2vw, 17px);
+  align-items: center;
+  padding: 14px 0;
+}
+#why-us .tt-why-feature .why-reason summary:hover,
+#why-us .tt-why-feature .why-reason summary:focus-visible {
+  background: #efc36e16;
+}
+#why-us .tt-why-icon {
+  width: 30px;
+  height: 30px;
+}
+#why-us .tt-why-label {
+  display: grid;
+  gap: 4px;
+  color: #e0e7d3;
+  font-size: 13px;
+  line-height: 1.45;
+}
+#why-us .tt-why-label strong {
+  color: #fff8e9;
+  font: 700 clamp(17px, 1.5vw, 22px)/1.15 Georgia, serif;
+}
+#why-us .tt-why-feature .why-reason-body {
+  padding: 0 0 14px clamp(0px, 5vw, 78px);
+}
+@media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+  #why-us .tt-why-scene::before {
+    transform: translate(var(--why-x, 0px), var(--why-y, 0px));
+    transition: transform .24s ease-out;
+  }
+}
+@media (max-width: 860px) {
+  #why-us .tt-why-feature { grid-template-columns: minmax(0, 1fr); }
+  #why-us .tt-why-scene { min-height: 330px; }
+}
+
+/* Cut the foliage into the panel edge so both sides retain their own textures. */
+#why-us .tt-why-feature {
+  --canopy-depth: clamp(78px, 7.5vw, 108px);
+  mask-image: linear-gradient(#000, #000), url("assets/embedded-a27dfc6e432792f5.svg");
+  mask-position: top, bottom;
+  mask-size: 100% calc(100% - var(--canopy-depth) + 1px), 100% var(--canopy-depth);
+  mask-repeat: no-repeat;
+}
+#why-us .tt-why-feature > :is(.tt-why-scene, .why-reasons) {
+  padding-bottom: var(--canopy-depth);
+}
+
+
+/* A soft tint follows the masked canopy edge, retaining the imagery beneath. */
+#why-us .tt-why-feature::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  inset-inline: 0;
+  bottom: 0;
+  height: var(--canopy-depth);
+  background: linear-gradient(to bottom, transparent 12%, rgb(144 171 108 / .16) 52%, rgb(144 171 108 / .26) 100%);
+  pointer-events: none;
+}
+
+/* Compact, high-contrast Trade Enquiry panel. */
+.trade-page #trade-main .te-split {
+  grid-template-columns: minmax(0, .95fr) minmax(0, 1fr);
+  gap: clamp(24px, 4vw, 64px);
+  min-height: 0;
+  padding: clamp(28px, 3vw, 48px) clamp(20px, 5vw, 76px);
+}
+.trade-page #trade-main .te-split::before {
+  opacity: 1;
+  background-image: linear-gradient(90deg, #09291de8, #09291dbb 52%, #09291df2), url('assets/spice-pepper.webp');
+}
+.trade-page #trade-main .te-story h1 {
+  margin: 14px 0;
+  font: 600 clamp(32px, 3.6vw, 52px)/1.08 Georgia, serif;
+  color: #fff9ed;
+}
+.trade-page #trade-main .te-story h1 em {
+  color: #f3ce80;
+}
+.trade-page #trade-main .te-story .te-intro {
+  font-size: clamp(17px, 1.45vw, 21px);
+  line-height: 1.45;
+  color: #fff9ed;
+}
+.trade-page #trade-main .te-story .te-trade-summary {
+  margin-top: 16px;
+  color: #f5e2b5;
+}
+.trade-page #trade-main .te-story .te-next-note {
+  color: #f1f4e9;
+}
+.trade-page #trade-main #enquiry.te-card {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 620px;
+  justify-self: end;
+  padding: clamp(18px, 2.2vw, 32px);
+  background: #fffaf0;
+}
+.trade-page #trade-main #enquiry h2 {
+  margin: 0 0 16px;
+  font: 600 clamp(25px, 2.4vw, 36px)/1.15 Georgia, serif;
+  color: #123b2a;
+}
+.trade-page #enquiry .te-fields {
+  gap: 12px 14px;
+}
+.trade-page #enquiry .te-fields label {
+  gap: 5px;
+}
+.trade-page #enquiry .te-fields :is(input, select, textarea) {
+  border-color: #a8ad9c;
+  padding: 9px 11px;
+}
+.trade-page #enquiry .te-fields :is(input, textarea)::placeholder {
+  color: #56675d;
+  opacity: 1;
+}
+.trade-page #enquiry .te-fields textarea {
+  min-height: 66px;
+  height: 72px;
+}
+.trade-page #enquiry :is(.te-submit, .te-whatsapp) {
+  min-height: 44px;
+  padding: 10px 12px;
+}
+.trade-page #enquiry .te-submit {
+  margin-top: 14px;
+}
+.trade-page #enquiry .te-or {
+  margin: 10px 0;
+  color: #536257;
+}
+.trade-page #enquiry .te-help {
+  margin-top: 5px;
+  color: #536257;
+}
+.trade-page #enquiry #te-status:empty {
+  display: none;
+}
+@media (max-width: 880px) {
+  .trade-page #trade-main .te-split {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .trade-page #trade-main #enquiry.te-card {
+    justify-self: start;
+  }
+}
+@media (max-width: 520px) {
+  .trade-page #enquiry .te-fields {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+/* A soft ivory sweep with a fine gold accent at the trade enquiry seam. */
+.trade-page #trade-main #why-contact + .te-split {
+  --trade-mist-depth: clamp(52px, 6vw, 82px);
+  padding-block-start: calc(var(--trade-mist-depth) + 14px);
+}
+.trade-page #trade-main #why-contact + .te-split::before {
+  background:
+    url("assets/embedded-baa5346eacb17792.svg") center top / 100% var(--trade-mist-depth) no-repeat,
+    linear-gradient(90deg, #09291de8, #09291dbb 52%, #09291df2),
+    url('assets/spice-pepper.webp') left center / cover no-repeat;
+}
+
+/* Shared editorial footer on the five main pages. */
+.tt-footer-banners {
+  --tt-foot-green: #103b2b;
+  position: relative;
+  color: var(--tt-foot-green);
+}
+.tt-foot-careers {
+  position: relative;
+  background: #234b2b;
+  color: #fff9ea;
+  padding-block: 8px;
+}
+.tt-foot-careers::before {
+  content: "";
+  position: absolute;
+  inset-inline: 0;
+  height: 10px;
+  background: #faf7ed;
+  pointer-events: none;
+}
+.tt-foot-careers::before {
+  top: 0;
+  clip-path: polygon(0 0,100% 0,100% 68%,96% 30%,92% 87%,88% 50%,84% 81%,79% 38%,74% 80%,69% 51%,64% 93%,58% 42%,53% 74%,48% 45%,43% 85%,38% 37%,34% 93%,30% 42%,26% 78%,21% 40%,18% 83%,14% 51%,10% 80%,6% 45%,3% 88%,0 55%);
+}
+.tt-foot-careers::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  inset: auto 0 -1px;
+  height: 2px;
+  background: linear-gradient(90deg, #a3753540, #d9b572 42%, #e8ce98 74%, #a3753550);
+  pointer-events: none;
+}
+.tt-foot-careers-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 14px 24px;
+  padding-block: 32px;
+}
+.tt-foot-careers-inner p:not(.tt-foot-kicker) { margin: 8px 0 0; font-size: .9rem; }
+.tt-foot-careers .tt-foot-kicker { color: #eed092; }
+.tt-foot-kicker {
+  margin: 0 0 5px;
+  font: 700 .68rem/1.4 Manrope, Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .15em;
+}
+.tt-foot-careers h2,
+.tt-foot-trade h2 {
+  margin: 0;
+  font: 600 clamp(25px, 3vw, 44px)/1.08 Georgia, serif;
+}
+.tt-footer-banners svg { width: 22px; height: 22px; flex: none; }
+.tt-foot-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 44px;
+  padding: 8px 17px;
+  border-radius: 999px;
+  background: var(--tt-foot-green);
+  color: #fffdf4;
+  font: 650 .84rem/1.25 Manrope, Arial, sans-serif;
+}
+.tt-foot-careers h2 { font-size: clamp(25px, 2.5vw, 36px); }
+.tt-foot-careers .tt-foot-button { border-radius: 3px; }
+.tt-foot-button:hover { text-decoration: underline; text-underline-offset: 4px; }
+.tt-foot-trade {
+  position: relative;
+  isolation: isolate;
+  background: #092c21;
+  color: #fff8e9;
+}
+.tt-foot-trade::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0 0 0 53%;
+  background: url('assets/trade-ingredients-backdrop.webp') left center / cover no-repeat;
+  transform: scaleX(-1);
+  mask-image: linear-gradient(to right, #000 5%, #000c 48%, transparent 100%);
+  pointer-events: none;
+}
+.tt-foot-trade-inner {
+  display: grid;
+  align-items: center;
+  min-height: 244px;
+  padding-block: 39px 40px;
+  padding-inline-start: clamp(300px, 28vw, 380px);
+}
+.tt-foot-trade-inner > div { max-width: 455px; }
+.tt-foot-trade .tt-foot-kicker,
+.tt-foot-trade h2 span { color: #f1c87f; }
+.tt-foot-trade p:not(.tt-foot-kicker) { margin: 10px 0 14px; font-size: .94rem; }
+.tt-foot-trade .tt-foot-button { background: #087744; border-radius: 8px; }
+
+html body #tt-site-footer.tt-footer-editorial {
+  background: #f7eedc !important;
+  color: #1b3e2e;
+  padding-top: clamp(112px, 10vw, 150px) !important;
+}
+html body #tt-site-footer.tt-footer-editorial > .tt-footer-spice {
+  position: absolute !important;
+  inset: -145px auto auto max(22px, calc((100% - 82rem) / 2 + 26px)) !important;
+  width: 270px !important;
+  height: 270px !important;
+  margin: 0 !important;
+  z-index: 3;
+}
+#tt-site-footer.tt-footer-editorial .tt-foot-details {
+  display: grid;
+  grid-template-columns: 1.12fr .92fr 1.4fr 1.12fr;
+  gap: 20px;
+  padding-bottom: 24px;
+}
+.tt-foot-details > div { min-width: 0; }
+.tt-foot-details > div + div { border-left: 1px solid #e1d4bd; padding-left: 18px; }
+.tt-foot-details h2 { margin: 0 0 12px; font: 700 1.18rem/1.2 Georgia, serif; color: #143725; }
+.tt-foot-wordmark { display: flex; align-items: center; gap: 10px; margin: 7px 0 10px; }
+.tt-foot-wordmark > span { font: 700 clamp(20px, 2.1vw, 31px)/.98 Georgia, serif; text-transform: uppercase; }
+.tt-foot-wordmark strong { display: block; color: #986c2c; }
+.tt-foot-brand > p:last-child { font-size: .8rem; }
+.tt-foot-contact { display: flex; align-items: flex-start; gap: 9px; margin-bottom: 10px; font-size: .83rem; line-height: 1.45; overflow-wrap: anywhere; }
+.tt-foot-contact svg { width: 22px; height: 22px; padding: 4px; flex: none; border-radius: 50%; background: #a3732c; color: #fff9ec; }
+.tt-foot-contact small { display: block; font-size: .75rem; color: #476151; }
+.tt-foot-links, .tt-foot-legal { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px 20px; border-top: 1px solid #dfd1b9; padding-block: 11px; font-size: .77rem; }
+.tt-foot-links nav, .tt-foot-legal nav, .tt-foot-social { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 15px; }
+.tt-foot-social { gap: 8px; }
+.tt-foot-social a { display: grid; place-items: center; width: 32px; height: 32px; border: 1px solid #a3732c; border-radius: 50%; font-weight: 750; }
+#tt-site-footer.tt-footer-editorial a:hover { text-decoration: underline; text-underline-offset: 3px; }
+.tt-footer-editorial a:focus-visible, .tt-footer-banners a:focus-visible { outline: 2px solid #a3732c; outline-offset: 3px; }
+
+@media (max-width: 1000px) {
+  #tt-site-footer.tt-footer-editorial .tt-foot-details { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .tt-foot-details > div + div { border: 0; padding-left: 0; }
+  html body #tt-site-footer.tt-footer-editorial > .tt-footer-spice { inset: -116px auto auto 22px !important; width: 215px !important; height: 215px !important; }
+  .tt-foot-trade-inner { padding-inline-start: 255px; }
+}
+@media (max-width: 640px) {
+  .tt-foot-trade-inner { padding-inline-start: 1.25rem; padding-block-end: 123px; }
+  .tt-foot-trade::before { inset-inline-start: 32%; opacity: .42; }
+  html body #tt-site-footer.tt-footer-editorial > .tt-footer-spice { inset: -108px auto auto calc(50% - 99px) !important; width: 198px !important; height: 198px !important; }
+}
+@media (max-width: 390px) {
+  #tt-site-footer.tt-footer-editorial .tt-foot-details { grid-template-columns: minmax(0, 1fr); gap: 16px; }
+}
+
+/* Simple homepage botanical transition, with clear space around the copy. */
+html body.tt-shared-footer .tt-footer-banners {
+  background: #092c21;
+  isolation: isolate;
+  overflow: clip;
+}
+html body.tt-shared-footer .tt-foot-careers {
+  position: relative;
+  z-index: auto;
+  isolation: auto;
+  overflow: visible;
+  border: 0 !important;
+  box-shadow: none !important;
+  background: #092c21 !important;
+}
+html body.tt-shared-footer .tt-foot-careers::before {
+  content: "" !important;
+  position: absolute !important;
+  inset: -28px 0 auto !important;
+  height: 29px !important;
+  background: linear-gradient(to bottom, transparent, #092c21) !important;
+  clip-path: none !important;
+  mask: none !important;
+  pointer-events: none;
+}
+html body.tt-shared-footer .tt-foot-careers::after {
+  content: "" !important;
+  position: absolute !important;
+  z-index: 1;
+  inset: auto 0 -55px !important;
+  height: 112px !important;
+  background: url("assets/embedded-f4c325c211d819ec.svg") center / 100% 100% no-repeat !important;
+  clip-path: none !important;
+  mask: none !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  pointer-events: none;
+}
+html body.tt-shared-footer .tt-foot-careers-inner {
+  position: relative;
+  z-index: 3;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 20px 32px;
+  align-items: center;
+  padding-block: 30px 48px;
+}
+html body.tt-shared-footer .tt-foot-careers-inner > div { max-width: 660px; }
+html body.tt-shared-footer .tt-foot-careers-inner h2 { margin-top: 8px; line-height: 1.15; }
+html body.tt-shared-footer .tt-foot-careers .tt-foot-button { margin: 0; min-height: 46px; }
+html body.tt-shared-footer .tt-foot-trade {
+  isolation: auto;
+  border: 0 !important;
+  box-shadow: none !important;
+  background: #092c21;
+}
+html body.tt-shared-footer .tt-foot-trade::before {
+  z-index: 0;
+  inset: 0;
+  border: 0 !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+  mask: none;
+  transform: scaleX(-1);
+  background:
+    linear-gradient(to bottom, #092c21, rgb(9 44 33 / .94) 20px, transparent 130px),
+    linear-gradient(to left, #092c21 0%, #092c21 43%, rgb(9 44 33 / .88) 55%, transparent 82%),
+    url('assets/trade-ingredients-backdrop.webp') left center / cover no-repeat;
+}
+html body.tt-shared-footer .tt-foot-trade-inner { position: relative; z-index: 3; min-height: 286px; padding-block: 48px 46px; }
+html body.tt-shared-footer .tt-foot-trade-inner > div { width: 100%; max-width: 460px; }
+html body.tt-shared-footer .tt-foot-trade h2 { margin-top: 9px; font-size: clamp(29px, 3vw, 40px); line-height: 1.12; }
+html body.tt-shared-footer .tt-foot-trade h2 span { display: block; }
+html body.tt-shared-footer .tt-foot-trade p:not(.tt-foot-kicker) { max-width: 42ch; margin: 13px 0 17px; line-height: 1.55; }
+@media (max-width: 700px) {
+  html body.tt-shared-footer .tt-foot-careers-inner { grid-template-columns: minmax(0, 1fr); gap: 17px; }
+  html body.tt-shared-footer .tt-foot-careers .tt-foot-button { justify-self: start; }
+  html body.tt-shared-footer .tt-foot-trade-inner { position: relative; z-index: 3; min-height: 0; padding-block: 40px 128px; }
+  html body.tt-shared-footer .tt-foot-trade::before { opacity: .42; }
+}
+
+/* A diffuse botanical glow blends into the ingredient photograph. */
+html body.tt-shared-footer .tt-foot-trade::after {
+  content: "";
+  position: absolute;
+  z-index: 2;
+  inset: -48px 2% auto auto;
+  width: min(45%, 650px);
+  height: 110px;
+  background: radial-gradient(ellipse at center, rgb(199 184 132 / .075), transparent 70%);
+  filter: blur(40px);
+  pointer-events: none;
+}
+@media (max-width: 700px) {
+  html body.tt-shared-footer .tt-foot-careers::after {
+    inset-block-end: -36px !important;
+    height: 80px !important;
+  }
+  html body.tt-shared-footer .tt-foot-careers-inner { padding-bottom: 42px; }
+}
+
+/* Match the original shared paper tear to the leadership panel. */
+.about-page #about-main > #our-model.tt-team-section + .ab-partners::before {
+  background: #f7f0e1;
+  height: 52px;
+  top: -1px;
+  filter: none;
+}
+
+/* Centre the five desktop links independently of unequal side content. */
+@media (min-width: 1101px) {
+  html body > header#tt-site-header .tt-nav-shell {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr) !important;
+    column-gap: clamp(12px, 1.5vw, 24px) !important;
+  }
+  html body > header#tt-site-header .tt-nav-brand {
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: start;
+    min-width: 0;
+  }
+  html body > header#tt-site-header .tt-desktop-nav {
+    grid-column: 2;
+    grid-row: 1;
+    justify-content: center !important;
+    justify-self: center;
+    gap: clamp(12px, 1.5vw, 22px) !important;
+  }
+  html body > header#tt-site-header .tt-nav-actions {
+    grid-column: 3;
+    grid-row: 1;
+    justify-self: end;
+  }
+}
+html body > header#tt-site-header .tt-nav-wordmark strong {
+  word-spacing: .12em !important;
+}
+html body > header#tt-site-header .tt-nav-wordmark small {
+  word-spacing: .1em !important;
+}
+html body > header#tt-site-header nav .tt-nav-link {
+  word-spacing: .09em !important;
+}
+
+/* Journal navigation: keep all six destinations on a single row. */
+@media(min-width:1101px){html body > header#tt-site-header .tt-nav-shell{grid-template-columns:auto minmax(0,1fr) auto!important;column-gap:20px!important}html body > header#tt-site-header .tt-desktop-nav{gap:clamp(10px,1.2vw,19px)!important;white-space:nowrap}html body > header#tt-site-header .tt-nav-link{font-size:13px!important}}
+
+/* FAQ belongs to the Email column; Journal joins the footer navigation. */
+#tt-site-footer .tt-foot-faq{margin:20px 0 0;padding-top:14px;border-top:1px solid #d9cbb0;font:600 12px/1.6 Manrope,Arial,sans-serif}
+#tt-site-footer .tt-foot-faq a{display:inline-flex;gap:12px;align-items:center;color:#36563b}
+#tt-site-footer .tt-foot-links nav[aria-label="Footer navigation"]{gap:9px 17px}

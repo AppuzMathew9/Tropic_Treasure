@@ -1,0 +1,788 @@
+[
+  {
+    "slug": "monsooned-malabar-aa",
+    "name": "Monsooned Malabar AA",
+    "category": "coffee",
+    "img": "coffee-monsooned-malabar.jpg",
+    "subtitle": "Shaped by the monsoon. Distinctly Indian.",
+    "description": "Indian Arabica coffee with a mellow, full-bodied cup, offered for specialty roasting and blending.",
+    "botanical": "Coffea arabica",
+    "rows": [
+      [
+        "Processing",
+        "Monsooned Arabica"
+      ],
+      [
+        "Origin",
+        "Western coastal India · Malabar region"
+      ],
+      [
+        "Grade",
+        "AA"
+      ],
+      [
+        "Bean colour",
+        "Pale yellow to straw"
+      ],
+      [
+        "Form",
+        "Green coffee beans"
+      ],
+      [
+        "Screen size",
+        "Confirm against the offered grade and lot"
+      ],
+      [
+        "Moisture & defects",
+        "Confirmed in the lot specification"
+      ]
+    ],
+    "highlights": [
+      "Full body",
+      "Mellow flavour",
+      "Monsooned character"
+    ],
+    "uses": [
+      "Specialty roasting",
+      "Espresso blends",
+      "Single-origin coffee"
+    ],
+    "story_title": "A coffee shaped by nature and time.",
+    "story": "The monsooning process exposes selected beans to moisture-laden coastal air. The resulting coffee is evaluated for its distinctive cup character. Request a representative sample and current lot information before selecting a roast profile.",
+    "retail": false,
+    "packs": [],
+    "cardid": "monsooned-malabar-aa"
+  },
+  {
+    "slug": "mysore-nuggets-extra-bold",
+    "name": "Mysore Nuggets Extra Bold",
+    "category": "coffee",
+    "img": "coffee-profiles.webp",
+    "subtitle": "Premium washed Arabica from India.",
+    "description": "Large, bold Arabica beans for buyers seeking a clean, aromatic cup and a distinctive Indian coffee offering.",
+    "botanical": "Coffea arabica",
+    "rows": [
+      [
+        "Processing",
+        "Washed"
+      ],
+      [
+        "Origin",
+        "Southern Indian highlands"
+      ],
+      [
+        "Grade",
+        "Extra Bold · Plantation AAA"
+      ],
+      [
+        "Bean colour",
+        "Bluish green"
+      ],
+      [
+        "Form",
+        "Green coffee beans"
+      ],
+      [
+        "Screen size",
+        "Confirm in the supplier’s current grade specification"
+      ],
+      [
+        "Moisture & defects",
+        "Confirmed per lot"
+      ]
+    ],
+    "highlights": [
+      "Large, bold beans",
+      "Aromatic cup",
+      "Washed Arabica"
+    ],
+    "uses": [
+      "Single-origin roasting",
+      "Filter coffee",
+      "Espresso blends"
+    ],
+    "story_title": "From India’s highland estates.",
+    "story": "India’s southern coffee regions provide the origin context for this washed Arabica grade. Discuss the available estate or regional information, sample profile and lot documentation when preparing your buying brief.",
+    "retail": false,
+    "packs": [],
+    "cardid": "mysore-nuggets-extra-bold"
+  },
+  {
+    "slug": "robusta-kaapi-royale",
+    "name": "Robusta Kaapi Royale",
+    "category": "coffee",
+    "img": "cat-coffee.jpg",
+    "subtitle": "Bold character. Distinctly Indian.",
+    "description": "Washed Indian Robusta for roasters considering body, crema and blend performance.",
+    "botanical": "Coffea canephora",
+    "rows": [
+      [
+        "Processing",
+        "Washed"
+      ],
+      [
+        "Origin",
+        "South India"
+      ],
+      [
+        "Grade",
+        "Kaapi Royale"
+      ],
+      [
+        "Bean colour",
+        "Green to light green"
+      ],
+      [
+        "Form",
+        "Green coffee beans"
+      ],
+      [
+        "Screen size",
+        "Confirmed for the offered grade"
+      ],
+      [
+        "Moisture & defects",
+        "Confirmed per lot"
+      ]
+    ],
+    "highlights": [
+      "Full-bodied profile",
+      "Washed Robusta",
+      "Blend versatility"
+    ],
+    "uses": [
+      "Espresso blends",
+      "Filter coffee",
+      "Blended roasts"
+    ],
+    "story_title": "Grown in India’s coffee heartland.",
+    "story": "Western Ghats and adjoining southern regions form an important part of India’s coffee landscape. Evaluate the available sample in your intended blend and confirm the origin and processing information for the lot offered.",
+    "retail": false,
+    "packs": [],
+    "cardid": "robusta-kaapi-royale"
+  },
+  {
+    "slug": "roasted-coffee",
+    "name": "Roasted Coffee",
+    "category": "coffee",
+    "img": "coffee-hero.jpg",
+    "subtitle": "Roast, format and flavour — shaped around your brief.",
+    "description": "Indian coffee options for foodservice, wholesale and private-label discussions.",
+    "botanical": "Arabica / Robusta, according to selection",
+    "rows": [
+      [
+        "Format",
+        "Whole beans or ground · confirm availability"
+      ],
+      [
+        "Roast profile",
+        "Discuss with your product brief"
+      ],
+      [
+        "Origin",
+        "India"
+      ],
+      [
+        "Packing",
+        "Valve bags or bulk formats, where available"
+      ],
+      [
+        "Shelf life",
+        "Confirmed for the selected product and packaging"
+      ]
+    ],
+    "highlights": [
+      "Buyer-led roast selection",
+      "Whole-bean options",
+      "Packaging discussions"
+    ],
+    "uses": [
+      "Foodservice",
+      "Retail packing",
+      "Espresso service"
+    ],
+    "story_title": "From green selection to the finished cup.",
+    "story": "Share the brewing method, preferred flavour profile, format and pack requirements. Samples and current specifications help connect the chosen coffee to your intended customer experience.",
+    "retail": false,
+    "packs": [],
+    "cardid": "roasted-coffee"
+  },
+  {
+    "slug": "plantation-arabica",
+    "name": "Plantation A & PB",
+    "category": "coffee",
+    "img": "coffee-profiles.webp",
+    "subtitle": "Washed Arabica options for everyday roasting.",
+    "description": "Discuss Plantation A and peaberry options for commercial roasting and balanced blends.",
+    "botanical": "Coffea arabica",
+    "rows": [
+      [
+        "Options",
+        "Plantation A / PB · specify required grade"
+      ],
+      [
+        "Processing",
+        "Washed"
+      ],
+      [
+        "Form",
+        "Green coffee beans"
+      ],
+      [
+        "Origin",
+        "India"
+      ],
+      [
+        "Screen, moisture & defects",
+        "Confirmed by grade and lot"
+      ]
+    ],
+    "highlights": [
+      "Washed Arabica",
+      "Grade-led selection",
+      "Roasting flexibility"
+    ],
+    "uses": [
+      "Commercial roasting",
+      "Blends",
+      "Retail coffee"
+    ],
+    "story_title": "An origin-led starting point for your blend.",
+    "story": "Begin with the desired cup, annual volume and roast use. Confirm the grade and current sample before agreeing the product specification.",
+    "retail": false,
+    "packs": [],
+    "cardid": "plantation-arabica"
+  },
+  {
+    "slug": "robusta-ab",
+    "name": "Robusta Parchment AB / Cherry AB",
+    "category": "coffee",
+    "img": "cat-coffee.jpg",
+    "subtitle": "Processing choices for your blend.",
+    "description": "Compare washed parchment and natural cherry Robusta options against your application.",
+    "botanical": "Coffea canephora",
+    "rows": [
+      [
+        "Options",
+        "Parchment AB / Cherry AB"
+      ],
+      [
+        "Processing",
+        "Washed or natural, according to option"
+      ],
+      [
+        "Form",
+        "Green coffee beans"
+      ],
+      [
+        "Origin",
+        "India"
+      ],
+      [
+        "Screen, moisture & defects",
+        "Confirmed by grade and lot"
+      ]
+    ],
+    "highlights": [
+      "Two processing options",
+      "Commercial grade selection",
+      "Application-led supply"
+    ],
+    "uses": [
+      "Blended roasts",
+      "Foodservice",
+      "Ingredient production"
+    ],
+    "story_title": "Selected for the way you work.",
+    "story": "Tell us which processing route and performance characteristics you need. Compare representative samples and current lot specifications before confirming a supply option.",
+    "retail": false,
+    "packs": [],
+    "cardid": "robusta-ab"
+  },
+  {
+    "slug": "tellicherry-black-pepper",
+    "name": "Tellicherry Black Pepper TGSEB",
+    "category": "spices",
+    "img": "spice-pepper.webp",
+    "subtitle": "Bold in character. Rooted in Kerala.",
+    "description": "Whole Kerala-origin peppercorns for culinary use, grinding and ingredient applications.",
+    "botanical": "Piper nigrum L.",
+    "rows": [
+      [
+        "Grade",
+        "TGSEB"
+      ],
+      [
+        "Origin",
+        "Kerala, India"
+      ],
+      [
+        "Appearance",
+        "Whole, black to dark-brown peppercorns"
+      ],
+      [
+        "Treatment",
+        "Steam sterilisation · confirm for the offered batch"
+      ],
+      [
+        "Moisture",
+        "Supplier specification: maximum 10%"
+      ],
+      [
+        "Shelf life",
+        "24 months under the supplier’s specified storage conditions"
+      ],
+      [
+        "Packaging",
+        "10, 20 or 25 kg · confirm availability"
+      ]
+    ],
+    "highlights": [
+      "Whole peppercorns",
+      "Warm, complex aroma",
+      "TGSEB grade"
+    ],
+    "uses": [
+      "Seasoning blends",
+      "Grinding",
+      "Prepared foods"
+    ],
+    "story_title": "From Kerala’s pepper-growing regions.",
+    "story": "Kerala is the origin focus for Tropic Treasure’s TGSEB peppercorn sourcing. Confirm the available lot, treatment, traceability records and technical requirements before agreeing commercial supply.",
+    "retail": false,
+    "packs": [],
+    "cardid": "spice-pepper"
+  },
+  {
+    "slug": "green-cardamom",
+    "name": "Green Cardamom",
+    "category": "spices",
+    "img": "spice-cardamom.webp",
+    "subtitle": "Aromatic pods from India’s spice regions.",
+    "description": "Whole cardamom pods for food, beverages and spice blending.",
+    "botanical": "Elettaria cardamomum",
+    "rows": [
+      [
+        "Origin",
+        "Kerala, India"
+      ],
+      [
+        "Format",
+        "Whole pods"
+      ],
+      [
+        "Grade & pod size",
+        "Confirm for the available product"
+      ],
+      [
+        "Colour",
+        "Confirm against a representative sample"
+      ],
+      [
+        "Moisture",
+        "Supplier specification: maximum 10%"
+      ],
+      [
+        "Shelf life",
+        "24 months under the supplier’s specified storage conditions"
+      ],
+      [
+        "Packaging",
+        "10, 20 or 25 kg · confirm availability"
+      ]
+    ],
+    "highlights": [
+      "Distinctive aroma",
+      "Whole-pod format",
+      "Culinary versatility"
+    ],
+    "uses": [
+      "Beverages",
+      "Confectionery",
+      "Spice blends"
+    ],
+    "story_title": "From Kerala’s cardamom-growing hills.",
+    "story": "Discuss the required grade, pod appearance and application when choosing a supply option. Written specifications and representative samples should be reviewed together.",
+    "retail": false,
+    "packs": [],
+    "cardid": "spice-cardamom"
+  },
+  {
+    "slug": "ginger-powder",
+    "name": "Ginger Powder",
+    "category": "spices",
+    "img": "spice-ginger.webp",
+    "subtitle": "Warm aroma. Rich flavour.",
+    "description": "India-origin ginger powder for food manufacturing, spice blends and culinary applications.",
+    "botanical": "Zingiber officinale",
+    "rows": [
+      [
+        "Origin",
+        "India · source confirmed per supply"
+      ],
+      [
+        "Form",
+        "Fine powder"
+      ],
+      [
+        "Colour",
+        "Light beige to pale yellow"
+      ],
+      [
+        "Particle size",
+        "Confirm mesh requirement"
+      ],
+      [
+        "Moisture, ash & volatile oil",
+        "Confirm against the current technical specification"
+      ],
+      [
+        "Microbiological requirements",
+        "Agreed for the product and intended use"
+      ],
+      [
+        "Storage",
+        "Cool, dry conditions away from direct sunlight"
+      ]
+    ],
+    "highlights": [
+      "Warm aroma",
+      "Powder format",
+      "Formulation versatility"
+    ],
+    "uses": [
+      "Bakery",
+      "Seasoning blends",
+      "Food & beverages"
+    ],
+    "story_title": "From India’s ginger-growing regions.",
+    "story": "A clear brief covers particle size, sensory needs, treatment and destination. Evaluate the sample in your formulation before approving commercial supply.",
+    "retail": false,
+    "packs": [],
+    "cardid": "spice-ginger"
+  },
+  {
+    "slug": "turmeric-powder",
+    "name": "Turmeric Powder",
+    "category": "spices",
+    "img": "spice-turmeric.webp",
+    "subtitle": "Golden colour. Earthy character.",
+    "description": "India-origin turmeric powder for spice blends, sauces and food applications.",
+    "botanical": "Curcuma longa",
+    "rows": [
+      [
+        "Origin",
+        "India · source confirmed per supply"
+      ],
+      [
+        "Form",
+        "Fine powder"
+      ],
+      [
+        "Colour",
+        "Golden yellow"
+      ],
+      [
+        "Curcumin content",
+        "Confirm required grade"
+      ],
+      [
+        "Particle size",
+        "Confirm mesh requirement"
+      ],
+      [
+        "Moisture, ash & contaminants",
+        "Review the current specification and test evidence"
+      ],
+      [
+        "Storage",
+        "Cool, dry conditions away from direct sunlight"
+      ]
+    ],
+    "highlights": [
+      "Golden colour",
+      "Earthy flavour",
+      "Buyer-led grade selection"
+    ],
+    "uses": [
+      "Seasoning blends",
+      "Sauces",
+      "Food manufacturing"
+    ],
+    "story_title": "From India’s turmeric-growing regions.",
+    "story": "Origin, grade and processing information are reviewed alongside your formulation needs. Specify curcumin, colour and particle-size requirements when requesting the current technical sheet.",
+    "retail": false,
+    "packs": [],
+    "cardid": "spice-turmeric"
+  },
+  {
+    "slug": "cashew-kernels",
+    "name": "Cashew Kernels",
+    "category": "nuts",
+    "img": "cat-nuts.jpg",
+    "subtitle": "Creamy texture. Versatile formats.",
+    "description": "Cashew kernels for retail, food manufacturing and foodservice applications.",
+    "botanical": "Anacardium occidentale L.",
+    "rows": [
+      [
+        "Core grade",
+        "W320 · other grades on enquiry"
+      ],
+      [
+        "Origin",
+        "India · confirm lot origin"
+      ],
+      [
+        "Kernel type",
+        "Whole kernels; splits and pieces on enquiry"
+      ],
+      [
+        "Appearance",
+        "White to light ivory"
+      ],
+      [
+        "Moisture & quality limits",
+        "Confirm in the grade specification"
+      ],
+      [
+        "Allergen information",
+        "Contains cashew nuts; review supplier cross-contact information"
+      ],
+      [
+        "Packing & shelf life",
+        "Confirmed for the supply option"
+      ]
+    ],
+    "highlights": [
+      "Creamy texture",
+      "Grade choices",
+      "Whole, splits & pieces"
+    ],
+    "uses": [
+      "Snacks & retail",
+      "Bakery & confectionery",
+      "Foodservice"
+    ],
+    "story_title": "From India’s cashew supply regions.",
+    "story": "Discuss kernel format, grade and your intended use. The product specification should capture acceptance limits, allergen information and packing requirements. Lower W-count grades generally represent larger whole kernels.",
+    "retail": false,
+    "packs": [],
+    "cardid": "cashew-kernels"
+  },
+  {
+    "slug": "black-pepper-oleoresin",
+    "name": "Black Pepper Oleoresin",
+    "category": "oleoresins",
+    "img": "cat-oleoresins.jpg",
+    "subtitle": "Concentrated pepper character for food applications.",
+    "description": "An India-origin spice extract for flavour and pungency in food and seasoning formulations.",
+    "botanical": "Piper nigrum L.",
+    "rows": [
+      [
+        "Product type",
+        "Spice oleoresin"
+      ],
+      [
+        "Appearance",
+        "Dark brown, viscous extract · grade dependent"
+      ],
+      [
+        "Piperine & volatile oil",
+        "Agree the required concentration"
+      ],
+      [
+        "Extraction method",
+        "Confirm for the offered grade"
+      ],
+      [
+        "Residual solvents",
+        "Review the grade-specific declaration and test evidence"
+      ],
+      [
+        "Shelf life & storage",
+        "Confirmed in the current technical sheet"
+      ],
+      [
+        "Packing",
+        "Food-grade containers, by agreement"
+      ]
+    ],
+    "highlights": [
+      "Concentrated character",
+      "Grade-specific pungency",
+      "Industrial applications"
+    ],
+    "uses": [
+      "Seasoning blends",
+      "Sauces & marinades",
+      "Processed foods"
+    ],
+    "story_title": "From origin spice to functional extract.",
+    "story": "The selected grade, extraction route and analytical profile determine suitability for your formulation. Request the current TDS, sample and supporting documentation before agreeing supply.",
+    "retail": false,
+    "packs": [],
+    "cardid": "black-pepper-oleoresin"
+  },
+  {
+    "slug": "ginger-oleoresin",
+    "name": "Ginger Oleoresin",
+    "category": "oleoresins",
+    "img": "oleoresin-profiles.webp",
+    "subtitle": "Warm ginger character in concentrated form.",
+    "description": "An India-origin ginger extract for flavour-led food and beverage applications.",
+    "botanical": "Zingiber officinale",
+    "rows": [
+      [
+        "Product type",
+        "Spice oleoresin"
+      ],
+      [
+        "Appearance",
+        "Viscous extract · grade dependent"
+      ],
+      [
+        "Gingerols & volatile oil",
+        "Confirm the required concentration"
+      ],
+      [
+        "Extraction method",
+        "Confirm for the offered grade"
+      ],
+      [
+        "Residual solvents",
+        "Review the grade-specific declaration and test evidence"
+      ],
+      [
+        "Shelf life & storage",
+        "Confirmed in the current technical sheet"
+      ],
+      [
+        "Packing",
+        "Food-grade containers, by agreement"
+      ]
+    ],
+    "highlights": [
+      "Concentrated ginger character",
+      "Application-led grades",
+      "Warm flavour"
+    ],
+    "uses": [
+      "Sauces",
+      "Seasonings",
+      "Food & beverages"
+    ],
+    "story_title": "From ginger origin to formulation.",
+    "story": "Share your application, desired sensory profile and concentration needs. Product selection follows the current specification, sample evaluation and supporting analytical records.",
+    "retail": false,
+    "packs": [],
+    "cardid": "ginger-oleoresin"
+  },
+  {
+    "slug": "kitchen-tellicherry-pepper",
+    "name": "Tellicherry Black Peppercorns",
+    "category": "collection",
+    "img": "pouch_pepper.webp",
+    "subtitle": "From origin to your kitchen.",
+    "description": "Whole Kerala-origin peppercorns for culinary use, grinding and ingredient applications.",
+    "botanical": "Piper nigrum L.",
+    "rows": [
+      [
+        "Ingredients",
+        "Tellicherry Black Peppercorns"
+      ],
+      [
+        "Origin",
+        "India"
+      ],
+      [
+        "Pack options",
+        "50 g / 100 g / 200 g · confirm availability"
+      ],
+      [
+        "Storage",
+        "Cool, dry place away from direct sunlight"
+      ],
+      [
+        "Shelf life",
+        "Confirm on the final pack label"
+      ],
+      [
+        "Allergen information",
+        "Review the final supplier and label information"
+      ]
+    ],
+    "highlights": [
+      "Whole peppercorns",
+      "Warm, complex aroma",
+      "TGSEB grade"
+    ],
+    "uses": [
+      "Everyday cooking",
+      "Beverages & blends",
+      "Marinades & baking"
+    ],
+    "story_title": "From Kerala’s pepper-growing regions.",
+    "story": "Kerala is the origin focus for Tropic Treasure’s TGSEB peppercorn sourcing. Confirm the available lot, treatment, traceability records and technical requirements before agreeing commercial supply.",
+    "retail": true,
+    "packs": [
+      50,
+      100,
+      200
+    ],
+    "cardid": "kitchen-tellicherry-pepper"
+  },
+  {
+    "slug": "kitchen-green-cardamom",
+    "name": "Green Cardamom Pods",
+    "category": "collection",
+    "img": "hero-cardamom.jpg",
+    "subtitle": "From origin to your kitchen.",
+    "description": "Whole cardamom pods for food, beverages and spice blending.",
+    "botanical": "Elettaria cardamomum",
+    "rows": [
+      [
+        "Ingredients",
+        "Green Cardamom Pods"
+      ],
+      [
+        "Origin",
+        "India"
+      ],
+      [
+        "Pack options",
+        "50 g / 100 g / 200 g · confirm availability"
+      ],
+      [
+        "Storage",
+        "Cool, dry place away from direct sunlight"
+      ],
+      [
+        "Shelf life",
+        "Confirm on the final pack label"
+      ],
+      [
+        "Allergen information",
+        "Review the final supplier and label information"
+      ]
+    ],
+    "highlights": [
+      "Distinctive aroma",
+      "Whole-pod format",
+      "Culinary versatility"
+    ],
+    "uses": [
+      "Everyday cooking",
+      "Beverages & blends",
+      "Marinades & baking"
+    ],
+    "story_title": "From Kerala’s cardamom-growing hills.",
+    "story": "Discuss the required grade, pod appearance and application when choosing a supply option. Written specifications and representative samples should be reviewed together.",
+    "retail": true,
+    "packs": [
+      50,
+      100,
+      200
+    ],
+    "cardid": "kitchen-green-cardamom"
+  }
+]

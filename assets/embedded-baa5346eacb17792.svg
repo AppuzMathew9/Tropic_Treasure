@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 88" preserveAspectRatio="none">
+<defs>
+<linearGradient id="ivory" x2="0%" y2="100%">
+<stop offset=".16" stop-color="#faf7ef"/>
+<stop offset=".49" stop-color="#faf7ef" stop-opacity=".97"/>
+<stop offset=".76" stop-color="#faf7ef" stop-opacity=".48"/>
+<stop offset="1" stop-color="#faf7ef" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="gold">
+<stop stop-color="#e7bf75" stop-opacity="0"/>
+<stop offset=".25" stop-color="#e7bf75" stop-opacity=".46"/>
+<stop offset=".60" stop-color="#e7bf75" stop-opacity=".78"/>
+<stop offset="1" stop-color="#e7bf75" stop-opacity="0"/>
+</linearGradient>
+<filter id="soft" x="-5%" y="-40%" width="110%" height="180%"><feGaussianBlur stdDeviation="0 5"/></filter>
+</defs>
+<path fill="url(#ivory)" filter="url(#soft)" d="M-24-20H1224V44C1038 38 912 56 747 73S469 66 321 52 121 64-24 76Z"/>
+<path fill="none" stroke="url(#gold)" stroke-width="1.35" vector-effect="non-scaling-stroke" d="M0 68C122 60 224 43 321 48S581 83 747 69 1038 33 1200 41"/>
+</svg>

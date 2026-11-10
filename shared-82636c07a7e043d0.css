@@ -1,0 +1,23 @@
+/* Unified navbar: independent of page-specific header and utility overrides. */
+body>#tt-site-header{position:sticky!important;top:0;z-index:100!important;background:#fbf8ef!important;border:0!important;box-shadow:0 1px 8px #163d2510;}
+#tt-site-header .tt-nav-shell{box-sizing:border-box;width:min(100% - 48px,1320px);margin:auto;min-height:88px;display:flex;align-items:center;gap:28px;justify-content:space-between;}
+#tt-site-header .tt-nav-brand{display:flex;align-items:center;gap:12px;flex-shrink:0;color:#214b32;}
+#tt-site-header .tt-nav-brand img{width:54px!important;height:54px!important;object-fit:contain;}
+#tt-site-header .tt-nav-wordmark{display:flex;flex-direction:column;gap:6px;}
+#tt-site-header .tt-nav-wordmark strong{font:700 20px/1.15 Georgia,serif;letter-spacing:.17em;white-space:nowrap;}
+#tt-site-header .tt-nav-reg{font:10px Arial,sans-serif;vertical-align:super;margin-left:4px;letter-spacing:0;}
+#tt-site-header .tt-nav-wordmark small{font:400 8px/1.3 Manrope,Arial,sans-serif;letter-spacing:.12em;white-space:nowrap;}
+#tt-site-header .tt-desktop-nav{display:flex;gap:8px;align-items:center;}
+#tt-site-header .tt-nav-link{display:block;padding:10px 12px;font:500 11px/1.4 Manrope,Arial,sans-serif;letter-spacing:.11em;text-transform:uppercase;color:#263a2d;white-space:nowrap;border-radius:24px;}
+#tt-site-header .tt-nav-link[aria-current=page],#tt-site-header .tt-nav-link:hover{background:#e8eadf;color:#17442d;}
+#tt-site-header .tt-nav-actions{display:flex;align-items:center;gap:12px;}
+#tt-site-header .tt-nav-cta{display:block;background:#234d2b;color:white;padding:14px 19px;white-space:nowrap;font:600 11px/1.3 Manrope,Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase;}
+#tt-site-header #mobile-menu-btn{display:none;background:transparent;border:1px solid #bcc8b8;border-radius:6px;width:42px;height:42px;color:#214b32;font-size:23px;}
+#tt-site-header #mobile-menu{padding:12px 24px 20px;border-top:1px solid #e2e4da;}
+#tt-site-header #mobile-menu.hidden{display:none!important;}
+#tt-site-header :is(a,button):focus-visible{outline:2px solid #a6813b;outline-offset:3px;}
+@media(max-width:1100px){#tt-site-header .tt-desktop-nav{display:none;}#tt-site-header #mobile-menu-btn{display:block;}#tt-site-header .tt-nav-shell{gap:16px;}}
+@media(min-width:1101px){#tt-site-header #mobile-menu{display:none!important;}}
+@media(max-width:520px){#tt-site-header .tt-nav-shell{width:calc(100% - 28px);min-height:70px;}#tt-site-header .tt-nav-wordmark strong{font-size:15px;letter-spacing:.1em;}#tt-site-header .tt-nav-wordmark small{font-size:6px;letter-spacing:0;}#tt-site-header .tt-nav-brand{gap:8px;}#tt-site-header .tt-nav-brand img{width:42px!important;height:42px!important;}#tt-site-header .tt-nav-cta{display:none;}}
+html{scroll-padding-top:95px;}[id]{scroll-margin-top:95px;}
+#tt-site-header, #tt-site-header *{box-sizing:border-box;}#tt-site-header a{text-decoration:none!important;}#tt-site-header .tt-nav-wordmark strong{display:block!important;text-transform:none!important;max-width:none!important;}#tt-site-header .tt-nav-wordmark small{display:block!important;}

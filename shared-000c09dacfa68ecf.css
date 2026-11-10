@@ -1,0 +1,38 @@
+
+@media(max-width:1024px){
+html body #tt-site-footer.tt-footer .tt-footer-layout{grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr))!important;gap:clamp(24px,4vw,45px)!important;align-items:start!important;}
+html body #tt-site-footer.tt-footer .tt-footer-navigation{grid-template-columns:repeat(2,minmax(0,1fr))!important;min-width:0;}
+}
+@media(max-width:767px){
+html body #tt-site-footer.tt-footer{padding-top:clamp(12px,4vw,28px)!important;margin-top:0!important;}
+html body #tt-site-footer.tt-footer .container-site{width:calc(100% - clamp(28px,8vw,48px))!important;max-width:100%!important;margin-inline:auto!important;}
+html body #tt-site-footer.tt-footer .tt-footer-layout{grid-template-columns:minmax(0,1fr)!important;gap:clamp(24px,6vw,36px)!important;padding-bottom:24px!important;}
+html body #tt-site-footer.tt-footer .tt-footer-brand{padding-top:0!important;min-width:0;}
+html body #tt-site-footer.tt-footer .tt-footer-spice{position:relative!important;top:auto!important;left:auto!important;right:auto!important;width:clamp(100px,34vw,180px)!important;height:auto!important;aspect-ratio:1;margin:0 auto clamp(16px,4vw,24px)!important;transform:none!important;box-shadow:none!important;background:transparent!important;border-radius:0!important;overflow:visible!important;}
+html body #tt-site-footer.tt-footer .tt-footer-spice img{display:block!important;width:100%!important;height:100%!important;object-fit:contain!important;}
+html body #tt-site-footer.tt-footer .tt-footer-logo{gap:clamp(8px,2vw,12px)!important;max-width:100%;}
+html body #tt-site-footer.tt-footer .tt-footer-logo>img{width:clamp(32px,10vw,44px)!important;height:auto!important;aspect-ratio:1;flex-shrink:0;}
+html body #tt-site-footer.tt-footer .tt-footer-logo>span{font-size:clamp(12px,3.5vw,17px)!important;letter-spacing:.08em!important;line-height:1.5!important;min-width:0;overflow-wrap:anywhere;}
+html body #tt-site-footer.tt-footer .tt-footer-logo small{font-size:clamp(6px,1.6vw,8px)!important;letter-spacing:0!important;line-height:1.6!important;white-space:normal!important;}
+html body #tt-site-footer.tt-footer .tt-footer-tagline{font-size:clamp(15px,4vw,18px)!important;margin-top:16px!important;}
+html body #tt-site-footer.tt-footer .tt-footer-email{margin-top:14px!important;max-width:100%;overflow-wrap:anywhere;}
+html body #tt-site-footer.tt-footer .tt-footer-copyright{margin-top:16px!important;}
+html body #tt-site-footer.tt-footer .tt-footer-offices{display:grid!important;grid-template-columns:repeat(auto-fit,minmax(min(100%,155px),1fr))!important;gap:18px!important;}
+html body #tt-site-footer.tt-footer .tt-footer-offices>h2{grid-column:1/-1;margin:0!important;}
+html body #tt-site-footer.tt-footer .tt-footer-office+.tt-footer-office{margin-top:0!important;}
+html body #tt-site-footer.tt-footer .tt-footer-office p{overflow-wrap:anywhere;}
+html body #tt-site-footer.tt-footer .tt-footer-navigation{padding-top:0!important;gap:20px!important;}
+html body #tt-site-footer.tt-footer .tt-footer-company>a{font-size:13px!important;}
+html body #tt-site-footer.tt-footer .tt-footer-origin{border-radius:10px!important;padding:12px!important;}
+html body #tt-site-footer.tt-footer .tt-footer-base{display:flex!important;flex-wrap:wrap!important;align-items:flex-start!important;gap:14px!important;padding-block:20px!important;}
+html body #tt-site-footer.tt-footer .tt-footer-base nav{display:flex!important;flex-wrap:wrap!important;gap:12px 18px!important;}
+html body #tt-site-footer.tt-footer .tt-footer-base a{overflow-wrap:anywhere;}
+html body main>section#trade-enquiry.tt-conversation-redirect{padding:clamp(32px,8vw,48px) 0 clamp(40px,10vw,65px)!important;min-height:0!important;height:auto!important;margin-bottom:0!important;}
+html body main>section#trade-enquiry.tt-conversation-redirect>.container-site{grid-template-columns:minmax(0,1fr)!important;gap:22px!important;}
+html body #trade-enquiry .tt-conversation-action .btn{box-sizing:border-box;max-width:100%;white-space:normal;justify-content:space-between;}
+html body #tt-site-header .tt-nav-brand{min-width:0;}
+html body #tt-site-header .tt-nav-wordmark strong{font-size:clamp(11px,3.5vw,16px)!important;letter-spacing:.1em!important;}
+html body #tt-site-header .tt-nav-wordmark small{font-size:clamp(4.8px,1.35vw,6px)!important;letter-spacing:0!important;border:0!important;text-decoration:none!important;}
+html body #tt-site-header .tt-nav-shell{gap:8px!important;}
+html body #tt-site-header #mobile-menu-btn{flex-shrink:0;}
+}

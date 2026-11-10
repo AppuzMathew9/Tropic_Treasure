@@ -1,0 +1,1205 @@
+<!DOCTYPE html>
+<html lang="en" data-css-page="about">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About Us — Rooted in Origin. Built on Trust | Tropic Treasure</title>
+  <meta name="description"
+    content="Rooted in Kerala, Tropic Treasure connects India's agricultural origins with international food businesses through responsible sourcing, product verification and coordinated trade.">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="About Tropic Treasure — Rooted in Origin. Built on Trust.">
+  <meta property="og:description"
+    content="Tropic Treasure is an India-origin sourcing and ingredients company rooted in Kerala, operating across India and the UK.">
+  <meta property="og:image" content="assets/about-plantation.webp">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="About Tropic Treasure — Rooted in Origin. Built on Trust.">
+  <meta name="twitter:description"
+    content="Tropic Treasure connects India's agricultural origins with international food businesses.">
+  <meta name="twitter:image" content="assets/about-cashews.webp">
+
+  <link rel="preload" as="image" href="assets/tt-mark.webp">
+  <link rel="icon" href="assets/favicon.webp" type="image/png">
+  <style>
+    /* About hero: reveal coffee at origin on hover or keyboard focus. */
+    .about-page .ab-hero-photo>.ab-hero-hover-image {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity .65s ease;
+    }
+
+    .about-page .ab-hero-photo:focus-visible>.ab-hero-hover-image {
+      opacity: 1;
+    }
+
+    .about-page .ab-hero-photo:focus-visible {
+      outline: 3px solid #8b7240;
+      outline-offset: 5px;
+    }
+
+    @media (hover: hover) {
+      .about-page .ab-hero-photo:hover>.ab-hero-hover-image {
+        opacity: 1;
+      }
+    }
+
+    .about-page .ab-hero-photo>figcaption,
+    .about-page .ab-hero-photo>.ab-image-label {
+      z-index: 2;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .about-page .ab-hero-photo>.ab-hero-hover-image {
+        transition: none;
+      }
+    }
+  </style>
+  <link rel="stylesheet" href="styles.css?v=mobile-footer-final-20261026">
+
+  <style id="tt-navbar-critical">
+    /* Unified navbar: independent of page-specific header and utility overrides. */
+    body>#tt-site-header {
+      position: sticky !important;
+      top: 0;
+      z-index: 100 !important;
+      background: #fbf8ef !important;
+      border: 0 !important;
+      box-shadow: 0 1px 8px #163d2510;
+    }
+
+    #tt-site-header .tt-nav-shell {
+      box-sizing: border-box;
+      width: min(100% - 48px, 1320px);
+      margin: auto;
+      min-height: 88px;
+      display: flex;
+      align-items: center;
+      gap: 28px;
+      justify-content: space-between;
+    }
+
+    #tt-site-header .tt-nav-brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-shrink: 0;
+      color: #214b32;
+    }
+
+    #tt-site-header .tt-nav-brand img {
+      width: 54px !important;
+      height: 54px !important;
+      object-fit: contain;
+    }
+
+    #tt-site-header .tt-nav-wordmark {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    #tt-site-header .tt-nav-wordmark strong {
+      font: 700 20px/1.15 Georgia, serif;
+      letter-spacing: .17em;
+      white-space: nowrap;
+    }
+
+    #tt-site-header .tt-nav-reg {
+      font: 10px Arial, sans-serif;
+      vertical-align: super;
+      margin-left: 4px;
+      letter-spacing: 0;
+    }
+
+    #tt-site-header .tt-nav-wordmark small {
+      font: 400 8px/1.3 Manrope, Arial, sans-serif;
+      letter-spacing: .12em;
+      white-space: nowrap;
+    }
+
+    #tt-site-header .tt-desktop-nav {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+    }
+
+    #tt-site-header .tt-nav-link {
+      display: block;
+      padding: 10px 12px;
+      font: 500 11px/1.4 Manrope, Arial, sans-serif;
+      letter-spacing: .11em;
+      text-transform: uppercase;
+      color: #263a2d;
+      white-space: nowrap;
+      border-radius: 24px;
+    }
+
+    #tt-site-header .tt-nav-link[aria-current=page],
+    #tt-site-header .tt-nav-link:hover {
+      background: #e8eadf;
+      color: #17442d;
+    }
+
+    #tt-site-header .tt-nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    #tt-site-header .tt-nav-cta {
+      display: block;
+      background: #234d2b;
+      color: white;
+      padding: 14px 19px;
+      white-space: nowrap;
+      font: 600 11px/1.3 Manrope, Arial, sans-serif;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+
+    #tt-site-header #mobile-menu-btn {
+      display: none;
+      background: transparent;
+      border: 1px solid #bcc8b8;
+      border-radius: 6px;
+      width: 42px;
+      height: 42px;
+      color: #214b32;
+      font-size: 23px;
+    }
+
+    #tt-site-header #mobile-menu {
+      padding: 12px 24px 20px;
+      border-top: 1px solid #e2e4da;
+    }
+
+    #tt-site-header #mobile-menu.hidden {
+      display: none !important;
+    }
+
+    #tt-site-header :is(a, button):focus-visible {
+      outline: 2px solid #a6813b;
+      outline-offset: 3px;
+    }
+
+    @media(max-width:1100px) {
+      #tt-site-header .tt-desktop-nav {
+        display: none;
+      }
+
+      #tt-site-header #mobile-menu-btn {
+        display: block;
+      }
+
+      #tt-site-header .tt-nav-shell {
+        gap: 16px;
+      }
+    }
+
+    @media(min-width:1101px) {
+      #tt-site-header #mobile-menu {
+        display: none !important;
+      }
+    }
+
+    @media(max-width:520px) {
+      #tt-site-header .tt-nav-shell {
+        width: calc(100% - 28px);
+        min-height: 70px;
+      }
+
+      #tt-site-header .tt-nav-wordmark strong {
+        font-size: 15px;
+        letter-spacing: .1em;
+      }
+
+      #tt-site-header .tt-nav-wordmark small {
+        font-size: 6px;
+        letter-spacing: 0;
+      }
+
+      #tt-site-header .tt-nav-brand {
+        gap: 8px;
+      }
+
+      #tt-site-header .tt-nav-brand img {
+        width: 42px !important;
+        height: 42px !important;
+      }
+
+      #tt-site-header .tt-nav-cta {
+        display: none;
+      }
+    }
+
+    html {
+      scroll-padding-top: 95px;
+    }
+
+    [id] {
+      scroll-margin-top: 95px;
+    }
+
+    #tt-site-header,
+    #tt-site-header * {
+      box-sizing: border-box;
+    }
+
+    #tt-site-header a {
+      text-decoration: none !important;
+    }
+
+    #tt-site-header .tt-nav-wordmark strong {
+      display: block !important;
+      text-transform: none !important;
+      max-width: none !important;
+    }
+
+    #tt-site-header .tt-nav-wordmark small {
+      display: block !important;
+    }
+  </style>
+
+
+
+
+
+  <style id="tt-fluid-mobile-layout">
+    @media(max-width:1024px) {
+      html body #tt-site-footer.tt-footer .tt-footer-layout {
+        grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)) !important;
+        gap: clamp(24px, 4vw, 45px) !important;
+        align-items: start !important;
+      }
+
+      html body #tt-site-footer.tt-footer .tt-footer-navigation {
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+        min-width: 0;
+      }
+    }
+
+    @media(max-width:767px) {
+      html body #tt-site-footer.tt-footer {
+        padding-top: clamp(12px, 4vw, 28px) !important;
+        margin-top: 0 !important;
+      }
+
+      html body #tt-site-footer.tt-footer .container-site {
+        width: calc(100% - clamp(28px, 8vw, 48px)) !important;
+        max-width: 100% !important;
+        margin-inline: auto !important;
+      }
+
+      html body #tt-site-footer.tt-footer .tt-footer-layout {
+        grid-template-columns: minmax(0, 1fr) !important;
+        gap: clamp(24px, 6vw, 36px) !important;
+        padding-bottom: 24px !important;
+      }
+
+      html body #tt-site-footer.tt-footer .tt-footer-brand {
+        padding-top: 0 !important;
+        min-width: 0;
+      }
+
+      html body #tt-site-footer.tt-footer .tt-footer-spice {
+        position: relative !important;
+        top: auto !important;
+        left: auto !important;
+        right: auto !important;
+        width: clamp(100px, 34vw, 180px) !important;
+        height: auto !important;
+        aspect-ratio: 1;
+        margin: 0 auto clamp(16px, 4vw, 24px) !important;
+        transform: none !important;
+        box-shadow: none !important;
+        background: transparent !important;
+        border-radius: 0 !important;
+        overflow: visible !important;
+      }
+
+      html body #tt-site-footer.tt-footer .tt-footer-spice img {
+        display: block !important;
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: contain !important;
+      }
+
+      html body #tt-site-footer.tt-footer .tt-footer-logo {
+        gap: clamp(8px, 2vw, 12px) !important;
+        max-width: 100%;
+      }
+
+      html body #tt-site-footer.tt-footer .tt-footer-logo>img {
+        width: clamp(32px, 10vw, 44px) !important;
+        height: auto !important;
+        aspect-ratio: 1;
+        flex-shrink: 0;
+      }
+
+      html body #tt-site-footer.tt-footer .tt-footer-logo>span {
+        font-size: clamp(12px, 3.5vw, 17px) !important;
+        letter-spacing: .08em !important;
+        line-height: 1.5 !important;
+        min-width: 0;
+        overflow-wrap: anywhere;
+      }
+
+      html body #tt-site-footer.tt-footer .tt-footer-logo small {
+        font-size: clamp(6px, 1.6vw, 8px) !important;
+        letter-spacing: 0 !important;
+        line-height: 1.6 !important;
+        white-space: normal !important;
+      }
+
+      html body #tt-site-footer.tt-footer .tt-footer-tagline {
+        font-size: clamp(15px, 4vw, 18px) !important;
+        margin-top: 16px !important;
+      }
+
+      html body #tt-site-footer.tt-footer .tt-footer-email {
+        margin-top: 14px !important;
+        max-width: 100%;
+        overflow-wrap: anywhere;
+      }
+
+      html body #tt-site-footer.tt-footer .tt-footer-copyright {
+        margin-top: 16px !important;
+      }
+
+      html body #tt-site-footer.tt-footer .tt-footer-offices {
+        display: grid !important;
+        grid-template-columns: repeat(auto-fit, minmax(min(100%, 155px), 1fr)) !important;
+        gap: 18px !important;
+      }
+
+      html body #tt-site-footer.tt-footer .tt-footer-offices>h2 {
+        grid-column: 1/-1;
+        margin: 0 !important;
+      }
+
+      html body #tt-site-footer.tt-footer .tt-footer-office+.tt-footer-office {
+        margin-top: 0 !important;
+      }
+
+      html body #tt-site-footer.tt-footer .tt-footer-office p {
+        overflow-wrap: anywhere;
+      }
+
+      html body #tt-site-footer.tt-footer .tt-footer-navigation {
+        padding-top: 0 !important;
+        gap: 20px !important;
+      }
+
+      html body #tt-site-footer.tt-footer .tt-footer-company>a {
+        font-size: 13px !important;
+      }
+
+      html body #tt-site-footer.tt-footer .tt-footer-origin {
+        border-radius: 10px !important;
+        padding: 12px !important;
+      }
+
+      html body #tt-site-footer.tt-footer .tt-footer-base {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        align-items: flex-start !important;
+        gap: 14px !important;
+        padding-block: 20px !important;
+      }
+
+      html body #tt-site-footer.tt-footer .tt-footer-base nav {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        gap: 12px 18px !important;
+      }
+
+      html body #tt-site-footer.tt-footer .tt-footer-base a {
+        overflow-wrap: anywhere;
+      }
+
+      html body main>section#trade-enquiry.tt-conversation-redirect {
+        padding: clamp(32px, 8vw, 48px) 0 clamp(40px, 10vw, 65px) !important;
+        min-height: 0 !important;
+        height: auto !important;
+        margin-bottom: 0 !important;
+      }
+
+      html body main>section#trade-enquiry.tt-conversation-redirect>.container-site {
+        grid-template-columns: minmax(0, 1fr) !important;
+        gap: 22px !important;
+      }
+
+      html body #trade-enquiry .tt-conversation-action .btn {
+        box-sizing: border-box;
+        max-width: 100%;
+        white-space: normal;
+        justify-content: space-between;
+      }
+
+      html body #tt-site-header .tt-nav-brand {
+        min-width: 0;
+      }
+
+      html body #tt-site-header .tt-nav-wordmark strong {
+        font-size: clamp(11px, 3.5vw, 16px) !important;
+        letter-spacing: .1em !important;
+      }
+
+      html body #tt-site-header .tt-nav-wordmark small {
+        font-size: clamp(4.8px, 1.35vw, 6px) !important;
+        letter-spacing: 0 !important;
+        border: 0 !important;
+        text-decoration: none !important;
+      }
+
+      html body #tt-site-header .tt-nav-shell {
+        gap: 8px !important;
+      }
+
+      html body #tt-site-header #mobile-menu-btn {
+        flex-shrink: 0;
+      }
+    }
+  </style>
+<style id="tt-leadership-native-style">
+.about-page #our-model.tt-team-section {
+  position: relative;
+  isolation: isolate;
+  background: #faf8f0;
+  padding: clamp(38px, 5vw, 72px) 24px;
+  margin: 0;
+}
+.about-page #our-model .tt-team-inner {
+  width: min(1120px, 100%);
+  margin-inline: auto;
+}
+.about-page #our-model .tt-team-heading {
+  position: relative;
+  inset: auto;
+  z-index: auto;
+  width: auto;
+  padding: 0;
+  background: transparent;
+  box-shadow: none;
+  border: 0;
+  text-align: center;
+  margin-bottom: clamp(28px, 4vw, 44px);
+}
+.about-page #our-model .tt-team-eyebrow {
+  font: 650 11px/1.5 Manrope, Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .25em;
+  color: #936b2d;
+  margin: 0 0 18px;
+}
+.about-page #our-model h2 {
+  margin: 0 0 10px;
+  font: 700 clamp(29px, 4.1vw, 52px)/1.12 Georgia, serif;
+  color: #0d3829;
+  letter-spacing: -.02em;
+}
+.about-page #our-model h2 span { color: #946326; }
+.about-page #our-model .tt-team-quote {
+  margin: 0 auto;
+  color: #34583e;
+  font: italic 19px/1.5 Georgia, serif;
+  max-width: 58ch;
+}
+.about-page #our-model .tt-team-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0;
+}
+.about-page #our-model .tt-team-person {
+  min-width: 0;
+  text-align: center;
+  padding: 0 clamp(15px, 3vw, 38px) 5px;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+}
+.about-page #our-model .tt-team-person + .tt-team-person {
+  border-left: 1px solid #c5ab6859;
+}
+.about-page #our-model .tt-team-portrait {
+  position: relative;
+  width: min(100%, 252px);
+  margin: 0 auto 19px;
+  aspect-ratio: 1 / 1.05;
+}
+.about-page #our-model .tt-team-portrait img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 28%;
+  clip-path: polygon(0 5%,8% 2%,16% 3%,25% 1%,34% 2%,43% 0,54% 2%,64% 1%,75% 3%,84% 2%,94% 5%,98% 11%,97% 22%,100% 34%,98% 46%,99% 60%,97% 72%,99% 84%,96% 96%,85% 98%,73% 97%,60% 100%,48% 98%,35% 99%,23% 97%,11% 98%,2% 94%,3% 82%,0 70%,2% 57%,1% 44%,3% 30%,1% 18%);
+}
+.about-page #our-model .tt-team-leaf {
+  position: absolute;
+  width: 80px;
+  height: 112px;
+  bottom: -12px;
+  left: -30px;
+  transform: rotate(-22deg);
+  pointer-events: none;
+}
+.about-page #our-model .tt-team-person:nth-child(2) .tt-team-leaf,
+.about-page #our-model .tt-team-person:nth-child(3) .tt-team-leaf {
+  left: auto;
+  right: -29px;
+  transform: scaleX(-1) rotate(-17deg);
+}
+.about-page #our-model h3 {
+  margin: 0;
+  color: #143e2b;
+  font: 700 clamp(23px, 2.2vw, 29px)/1.2 Georgia, serif;
+}
+.about-page #our-model .tt-team-role {
+  margin: 12px auto 0;
+  max-width: 29ch;
+  font: 650 10px/1.7 Manrope, Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: .19em;
+  color: #916b32;
+}
+.about-page #our-model .tt-team-role::before {
+  content: "";
+  display: block;
+  width: 35px;
+  height: 1px;
+  margin: 0 auto 11px;
+  background: #b89958;
+}
+@media(max-width: 700px) {
+  .about-page #our-model .tt-team-grid { grid-template-columns: minmax(0, 1fr); gap: 34px; }
+  .about-page #our-model .tt-team-person + .tt-team-person { border-left: 0; }
+  .about-page #our-model .tt-team-portrait { width: min(230px, 80%); }
+  .about-page #our-model .tt-team-quote { font-size: 17px; }
+}
+
+/* Reference-inspired paper and botanical composition, built around live content. */
+.about-page #our-model.tt-team-section {
+  overflow: hidden;
+  padding: clamp(34px, 4vw, 55px) clamp(24px, 7vw, 110px) clamp(38px, 4vw, 58px);
+  background: #526c35 url('assets/forest-hero.jpg') center / cover no-repeat;
+}
+.about-page #our-model.tt-team-section::before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  inset: 0;
+  width: auto;
+  height: auto;
+  display: block;
+  opacity: 1;
+  transform: none;
+  background-color: #f7f0e1;
+  background-image: url("assets/embedded-7984281ec96e5f04.svg"), radial-gradient(ellipse at 28% 22%, #fffaf0, transparent 70%);
+  background-size: 180px 180px, auto;
+  clip-path: polygon(11% 0,100% 0,99.5% 8%,100% 15%,99% 22%,99.4% 29%,98.6% 36%,99% 44%,98.2% 52%,98.5% 59%,97.5% 67%,98% 73%,96.8% 80%,97% 87%,94% 100%,0 100%,.8% 92%,.4% 86%,1.7% 79%,1.2% 73%,2.7% 66%,2.3% 60%,4% 52%,3.6% 45%,5% 38%,4.7% 31%,6.5% 24%,7% 18%,9% 10%,9.3% 5%);
+}
+.about-page #our-model.tt-team-section::after {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  right: 0;
+  bottom: 0;
+  width: clamp(44px, 7vw, 100px);
+  height: clamp(44px, 7vw, 100px);
+  background: linear-gradient(135deg, #ddcfb4, #fffbf1 46%, #b8a98c 49%, #e4d7be 51%, #f7f0e1 56%);
+  clip-path: polygon(100% 0,100% 100%,0 100%);
+  pointer-events: none;
+}
+.about-page #our-model .tt-team-inner {
+  position: relative;
+  z-index: 1;
+}
+.about-page #our-model .tt-team-inner::before,
+.about-page #our-model .tt-team-inner::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: clamp(105px, 16vw, 205px);
+  height: clamp(105px, 16vw, 205px);
+  background: url("assets/embedded-986279f67a974f4c.svg") center / contain no-repeat;
+  pointer-events: none;
+}
+.about-page #our-model .tt-team-inner::before {
+  top: -42px;
+  right: -75px;
+  transform: rotate(12deg);
+}
+.about-page #our-model .tt-team-inner::after {
+  bottom: -42px;
+  left: -80px;
+  transform: rotate(185deg);
+  opacity: .65;
+}
+.about-page #our-model .tt-team-heading {
+  margin-bottom: 25px;
+}
+.about-page #our-model .tt-team-eyebrow::after,
+.about-page #our-model .tt-team-quote::after {
+  content: "";
+  display: block;
+  width: 44px;
+  height: 1px;
+  background: #b69554;
+  margin: 15px auto 0;
+}
+.about-page #our-model .tt-team-quote::after {
+  width: 32px;
+  margin-top: 8px;
+}
+.about-page #our-model .tt-team-portrait {
+  margin-bottom: 15px;
+}
+.about-page #our-model .tt-team-leaf {
+  width: 92px;
+  height: 128px;
+}
+.about-page #our-model .tt-team-role {
+  font-size: 10px;
+  line-height: 1.6;
+}
+@media(max-width: 700px) {
+  .about-page #our-model.tt-team-section {
+    padding: 36px 28px 44px;
+  }
+  .about-page #our-model.tt-team-section::before {
+    clip-path: polygon(3% 0,100% 0,99% 18%,100% 38%,98% 57%,99% 76%,96% 100%,0 100%,1% 80%,0 60%,2% 40%,1% 20%);
+  }
+  .about-page #our-model .tt-team-inner::before { right: -20px; top: -25px; opacity: .5; }
+  .about-page #our-model .tt-team-inner::after { left: -20px; bottom: -20px; }
+  .about-page #our-model .tt-team-heading { margin-bottom: 30px; }
+}
+
+/* Restore the shared irregular tear from styles.css, with room for its full depth. */
+.about-page #our-model.tt-team-section {
+  padding-bottom: 42px;
+  scroll-margin-top: 110px;
+}
+.about-page #about-main > #our-model + .ab-partners {
+  margin-top: 0;
+  padding-top: 82px;
+}
+.about-page #about-main > #our-model + .ab-partners::before {
+  background: #f7f0e1;
+  filter: none;
+}
+</style>
+<link rel="stylesheet" href="website-updates.css?v=footer-nav-20261111"><link rel="stylesheet" href="shared-header.css?v=sitewide-cascade-fix-20261111"></head>
+
+<body class="about-page tt-shared-footer">
+  <!-- Header -->
+  <header id="tt-site-header" class="tt-unified-header"><div class="tt-nav-shell"><a class="tt-nav-brand" href="index.html" aria-label="Tropic Treasure home"><img src="assets/tt-mark.webp" alt="Tropic Treasure Logo" width="40" height="40">
+          <span class="tt-nav-wordmark"><strong>TROPIC TREASURE<span class="tt-nav-reg">®</span></strong><small>From Soil to Shelf, Built to Be Trusted.</small></span></a><nav class="tt-desktop-nav" aria-label="Main navigation"><a href="index.html" class="tt-nav-link">Home</a><a href="about.html" class="tt-nav-link" aria-current="page">About</a><a href="products.html" class="tt-nav-link">Products</a><a href="quality.html" class="tt-nav-link">Quality</a><a href="trade.html" class="tt-nav-link">Trade &amp; Contact</a><a href="journal.html" class="tt-nav-link">Journal</a></nav><div class="tt-nav-actions"><a class="tt-nav-cta" href="trade.html#enquiry">Trade Enquiry <span aria-hidden="true">↗</span></a><button type="button" id="tt-menu-toggle" aria-expanded="false" aria-controls="tt-mobile-nav" aria-label="Open navigation"><span aria-hidden="true">☰</span></button></div></div><nav id="tt-mobile-nav" class="hidden" aria-label="Mobile navigation"><a href="index.html" class="tt-nav-link">Home</a><a href="about.html" class="tt-nav-link" aria-current="page">About</a><a href="products.html" class="tt-nav-link">Products</a><a href="quality.html" class="tt-nav-link">Quality</a><a href="trade.html" class="tt-nav-link">Trade &amp; Contact</a><a href="faq.html" class="tt-nav-link">FAQ</a><a href="journal.html" class="tt-nav-link">Journal</a></nav></header>
+  <main id="about-main">
+    <section class="ab-hero">
+      <div class="ab-wrap ab-hero-grid">
+        <div class="ab-hero-copy">
+          <p class="ab-kicker">Our story · Kerala, India</p>
+          <h1>Rooted in origin.<br><em>Built on trust.</em></h1>
+          <p class="ab-lead">Tropic Treasure is an India-origin sourcing, exporting and importing business rooted in Kerala, with companies established in India and the United Kingdom.</p><a
+            class="ab-button" href="#our-story">Discover our story <span aria-hidden="true">↓</span></a>
+          <div class="ab-hero-note"><span>INDIA — ORIGIN</span><i aria-hidden="true">⟷</i><span>UK — CONNECTION</span>
+          </div>
+        </div>
+        <figure class="ab-hero-photo" tabindex="0"
+          aria-label="Kerala plantation. Hover or focus to reveal coffee cherries at origin."><img
+            src="assets/about-plantation.webp" alt="Illustrative Kerala spice plantation" width="1600" height="1200"
+            fetchpriority="high">
+          <img class="ab-hero-hover-image" src="assets/about-coffee.webp" alt="" aria-hidden="true" width="1600"
+            height="1200" decoding="async">
+          <figcaption>Every relationship begins at origin.</figcaption><span class="ab-image-label">ROOTED IN
+            KERALA</span>
+        </figure>
+      </div>
+    </section>
+    <nav class="ab-jump ab-wrap" aria-label="Explore this page"><a href="#our-story">01 / Our story</a><a
+        href="#our-purpose">02 / Our purpose</a><a href="#our-model">03 / Leadership</a><a href="#our-values">04 / Our
+        values</a></nav>
+    <section id="our-story" class="ab-section ab-wrap ab-story ab-visual-story">
+      <div class="ab-collage" tabindex="0" aria-label="Coffee and cashew images. Hover or focus to interchange them.">
+        <figure class="ab-collage-main"><img src="assets/about-coffee.webp"
+            alt="Illustrative close-up of coffee cherries at origin" loading="lazy">
+          <figcaption>Origin perspective / Flagship Shade-Grown Coffee</figcaption>
+        </figure>
+        <figure class="ab-collage-small"><img src="assets/about-cashews.webp" alt="Illustrative cashew sorting scene"
+            loading="lazy"></figure><span class="ab-collage-seal">FROM SOIL<br>TO SHELF</span>
+      </div>
+      <div class="ab-story-copy">
+          <p class="ab-kicker">Our Story</p>
+          <h2>Our Roots.<br><em>Our Beginning.</em></h2>
+          <p class="ab-large">Every ingredient begins with a place, a producer and a journey.</p>
+          <p>Tropic Treasure was founded on a simple belief: an ingredient’s true value extends beyond the product itself to the people, traditions and care behind it.</p>
+          <p>We bring this understanding into our work, connecting India’s agricultural heritage with international food businesses.</p>
+          <a class="ab-text-link" href="products.html#coffee">Explore our products ↗</a>
+        </div>
+    </section>
+    <section id="our-purpose" class="ab-purpose ab-section ab-paper-edge">
+      <div class="ab-wrap">
+        <p class="ab-kicker">What guides us</p>
+        <h2>Long-term thinking.<br><em>Everyday commitment.</em></h2>
+        <div class="ab-purpose-grid">
+          <article>
+            <div class="ab-purpose-illustration"><svg viewbox="0 0 48 48" fill="none" stroke="currentColor"
+                stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M12 34C8 18 20 7 39 7c0 21-11 32-27 27Z"></path>
+                <path d="M8 40 31 17M17 31l-1-10m8 3 10-1"></path>
+              </svg></div><span>01 / PURPOSE</span>
+            <h3>Value that begins<br>at the soil.</h3>
+            <p>To create lasting value for producers, supply partners and customers, with respect for the soil where
+              every ingredient begins.</p>
+          </article>
+          <article>
+            <div class="ab-purpose-illustration"><svg viewbox="0 0 48 48" fill="none" stroke="currentColor"
+                stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M4 24S11 10 24 10s20 14 20 14-7 14-20 14S4 24 4 24Z"></path>
+                <circle cx="24" cy="24" r="7"></circle>
+              </svg></div><span>02 / VISION</span>
+            <h3>Trust that grows<br>over time.</h3>
+            <p>To be a trusted ingredients partner recognised for product integrity and enduring relationships.</p>
+          </article>
+          <article>
+            <div class="ab-purpose-illustration"><svg viewbox="0 0 48 48" fill="none" stroke="currentColor"
+                stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <rect x="10" y="8" width="28" height="34" rx="4"></rect>
+                <path d="M18 8V4h12v4M17 25l5 5 10-12"></path>
+              </svg></div><span>03 / MISSION</span>
+            <h3>Care in every<br>part of the process.</h3>
+            <p>To source responsibly, verify diligently, document accurately and coordinate effectively.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section id="our-model" class="tt-team-section" aria-labelledby="tt-team-title">
+      <div class="tt-team-inner">
+        <header class="tt-team-heading">
+          <p class="tt-team-eyebrow">The people behind Tropic Treasure</p>
+          <h2 id="tt-team-title">Meet Our <span>Leadership Team</span></h2>
+          <p class="tt-team-quote">“Alone we can do so little; together we can do so much.”</p>
+        </header>
+        <div class="tt-team-grid"><article class="tt-team-person">
+          <div class="tt-team-portrait"><img src="assets/tintu-pillai.jpg" width="202" height="228" alt="Tintu Pillai" loading="lazy"><svg class="tt-team-leaf" viewBox="0 0 130 180" aria-hidden="true" fill="none"><path d="M25 175Q69 109 91 11" stroke="#8d986e" stroke-width="1.1"/><g fill="#8c9b714d" stroke="#9e9566" stroke-width=".7"><path d="M43 145Q8 134 10 99Q44 107 43 145ZM57 116Q27 98 35 66Q68 79 57 116ZM73 80Q48 56 63 28Q91 50 73 80ZM85 44Q69 15 95 2Q110 23 85 44ZM51 131Q80 93 111 104Q91 136 51 131ZM66 98Q95 67 124 83Q100 111 66 98ZM79 62Q106 31 127 47Q111 74 79 62Z"/></g></svg></div>
+          <h3>Tintu Pillai</h3><p class="tt-team-role">Founder &amp; CEO</p>
+        </article><article class="tt-team-person">
+          <div class="tt-team-portrait"><img src="assets/blessy-bell-babu.jpg" width="212" height="214" alt="Blessy Bell Babu" loading="lazy"><svg class="tt-team-leaf" viewBox="0 0 130 180" aria-hidden="true" fill="none"><path d="M25 175Q69 109 91 11" stroke="#8d986e" stroke-width="1.1"/><g fill="#8c9b714d" stroke="#9e9566" stroke-width=".7"><path d="M43 145Q8 134 10 99Q44 107 43 145ZM57 116Q27 98 35 66Q68 79 57 116ZM73 80Q48 56 63 28Q91 50 73 80ZM85 44Q69 15 95 2Q110 23 85 44ZM51 131Q80 93 111 104Q91 136 51 131ZM66 98Q95 67 124 83Q100 111 66 98ZM79 62Q106 31 127 47Q111 74 79 62Z"/></g></svg></div>
+          <h3>Blessy Bell Babu</h3><p class="tt-team-role">Director &amp; Marketing Manager</p>
+        </article><article class="tt-team-person">
+          <div class="tt-team-portrait"><img src="assets/divya-pillai.jpg" width="206" height="213" alt="Divya Pillai" loading="lazy"><svg class="tt-team-leaf" viewBox="0 0 130 180" aria-hidden="true" fill="none"><path d="M25 175Q69 109 91 11" stroke="#8d986e" stroke-width="1.1"/><g fill="#8c9b714d" stroke="#9e9566" stroke-width=".7"><path d="M43 145Q8 134 10 99Q44 107 43 145ZM57 116Q27 98 35 66Q68 79 57 116ZM73 80Q48 56 63 28Q91 50 73 80ZM85 44Q69 15 95 2Q110 23 85 44ZM51 131Q80 93 111 104Q91 136 51 131ZM66 98Q95 67 124 83Q100 111 66 98ZM79 62Q106 31 127 47Q111 74 79 62Z"/></g></svg></div>
+          <h3>Divya Pillai</h3><p class="tt-team-role">Director &amp; Business Development</p>
+        </article></div>
+      </div>
+    </section>
+
+    <section class="ab-partners ab-section ab-paper-edge">
+      <div class="ab-wrap ab-partner-grid">
+        <div>
+          <p class="ab-kicker">Who we work with</p>
+          <h2>Ingredients for<br>your business.</h2>
+          <p>Wholesale and bulk supply, with buyer-specific sourcing. Packaging and private-label options are reviewed
+            against product requirements and confirmed supplier capability.</p><a href="trade.html#enquiry"
+            class="ab-button ab-button-light">Discuss your requirements <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="ab-partner-list">
+          <div class="ab-partner-tile"><svg viewbox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.4"
+              stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="m5 14 19-9 19 9v22l-19 9L5 36ZM5 14l19 10 19-10M24 24v21M14 10l20 10"></path>
+            </svg>
+            <p>Importers &amp; Distributors</p>
+          </div>
+          <div class="ab-partner-tile"><svg viewbox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.4"
+              stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M5 43V21l13 7V16l14 9V10h10v33ZM5 43h37M12 34h4m8 0h4m8 0h3"></path>
+            </svg>
+            <p>Food &amp; Beverage Manufacturers</p>
+          </div>
+          <div class="ab-partner-tile"><svg viewbox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.4"
+              stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path
+                d="M6 21v22h36V21M4 21 9 7h30l5 14M4 21c0 8 10 8 10 0 0 8 10 8 10 0 0 8 10 8 10 0 0 8 10 8 10 0M13 43V31h10v12M30 30h6v6h-6">
+              </path>
+            </svg>
+            <p>Wholesalers &amp; Retailers</p>
+          </div>
+          <div class="ab-partner-tile"><svg viewbox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.4"
+              stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M9 17h25v13c0 8-25 8-25 0ZM34 19h5c8 0 8 12 0 12h-5M7 41h31M14 6v5M23 4v7M31 6v5"></path>
+            </svg>
+            <p>Foodservice Businesses</p>
+          </div>
+          <div class="ab-partner-tile"><svg viewbox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.4"
+              stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="18" cy="14" r="7"></circle>
+              <circle cx="35" cy="18" r="5"></circle>
+              <path d="M4 41v-6c0-8 6-12 14-12s14 4 14 12v6M32 27c8 0 12 4 12 10v4"></path>
+            </svg>
+            <p>Private-Label Partners</p>
+          </div>
+          <div class="ab-markets"><small>FOCUS MARKETS</small>
+            <p>United Kingdom · Europe · Middle East</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="our-values" class="ab-section ab-wrap about-values-section ab-paper-edge" data-botanical-motion>
+      <div class="ab-values-backdrop" aria-hidden="true"></div>
+      <div class="ab-values-heading">
+        <p class="ab-kicker">What we stand for</p>
+        <h2>Principles for<br><em>lasting relationships.</em></h2>
+        <p class="ab-approach-intro">These values guide how we build our company and work with producers, supply
+          partners and customers.</p>
+      </div>
+      <div class="ab-accordion">
+        <details name="company-values" open>
+          <summary><span>01</span> Integrity <b aria-hidden="true">+</b></summary>
+          <p>Be clear about what is known, what needs verification and what has been agreed.</p>
+        </details>
+        <details name="company-values">
+          <summary><span>02</span> Quality Consciousness <b aria-hidden="true">+</b></summary>
+          <p>Keep product requirements and careful verification central to sourcing decisions.</p>
+        </details>
+        <details name="company-values">
+          <summary><span>03</span> Respect for Origin <b aria-hidden="true">+</b></summary>
+          <p>Recognise the land, growing regions and people behind every ingredient.</p>
+        </details>
+        <details name="company-values">
+          <summary><span>04</span> Dependable Partnerships <b aria-hidden="true">+</b></summary>
+          <p>Build relationships through clear communication, mutual understanding and consistent follow-through.</p>
+        </details>
+        <details name="company-values">
+          <summary><span>05</span> Responsible Growth <b aria-hidden="true">+</b></summary>
+          <p>Develop the business thoughtfully, aligning commitments with the capability to deliver.</p>
+        </details>
+      </div>
+    </section>
+    <section id="founder-message" class="founder-editorial ab-paper-edge" data-botanical-motion
+      aria-labelledby="founder-message-title">
+      <div class="container-site founder-editorial-layout">
+        <div class="founder-botanical" tabindex="0"
+          aria-label="Botanical artwork. Hover or focus to reveal branching roots."><img
+            src="assets/about-values-coffee.webp"
+            alt="Dimensional coffee plant with glossy leaves, red cherries and an exposed root crown" loading="lazy"
+            width="1024" height="1536"></div>
+        <div class="founder-editorial-copy">
+          <h2 id="founder-message-title">Founder's Message</h2>
+          <span class="founder-quote-open" aria-hidden="true">“</span>
+          <blockquote>
+            <p>Every ingredient carries a story of the land, the people, and the care behind its journey.</p>
+            <p>Tropic Treasure was founded on a deep respect for India’s agricultural heritage, and its roots in Kerala,
+              together with a belief that international trade should create lasting value for the people and businesses
+              it connects. As we continue to grow, our commitment remains unchanged: to strengthen trusted relationships
+              and build enduring partnerships with customers, suppliers, and trade partners.</p>
+          </blockquote>
+          <div class="founder-editorial-signoff">
+            <p><strong>Mr Tintu Pillai</strong><span>Founder &amp; Group Managing Director</span></p><span
+              class="founder-quote-close" aria-hidden="true">”</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <p class="ab-image-note ab-wrap">Visuals on this page are AI-generated illustrations of origin, ingredient
+      preparation and international trade.</p>
+    <style>
+      /* Careers section: scoped to the About page. */
+      .about-page .tt-careers {
+        background: #f3eee3;
+        color: #183b2f;
+        padding: 32px 24px;
+      }
+
+      .about-page .tt-careers-inner {
+        width: min(1160px, 100%);
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: minmax(0, 34%) minmax(0, 1fr);
+        align-items: stretch;
+        background: #fffdf7;
+      }
+
+      .about-page .tt-careers-photo {
+        height: 220px;
+        overflow: hidden;
+      }
+
+      .about-page .tt-careers-photo img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .about-page .tt-careers-copy {
+        padding: 24px 36px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+      }
+
+      .about-page .tt-careers-kicker {
+        margin: 0 0 8px;
+        color: #927341;
+        font: 700 11px/1.4 sans-serif;
+        letter-spacing: .16em;
+        text-transform: uppercase;
+      }
+
+      .about-page .tt-careers h2 {
+        margin: 0 0 10px;
+        color: #183b2f;
+        font-family: Georgia, serif;
+        font-size: clamp(26px, 3vw, 36px);
+        font-weight: 400;
+        line-height: 1.08;
+      }
+
+      .about-page .tt-careers-copy>p:not(.tt-careers-kicker) {
+        margin: 0 0 8px;
+        max-width: 44rem;
+        color: #43544a;
+        font-size: 14px;
+        line-height: 1.5;
+      }
+
+      .about-page .tt-careers-link {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 18px;
+        max-width: 100%;
+        margin-top: 8px;
+        padding: 10px 16px;
+        background: #183b2f;
+        color: #fff;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 1.4;
+      }
+
+      .about-page .tt-careers-link:hover {
+        background: #285b47;
+        color: #fff;
+      }
+
+      .about-page .tt-careers-link:focus-visible {
+        outline: 3px solid #ad8b4b;
+        outline-offset: 4px;
+      }
+
+      @media (max-width: 700px) {
+        .about-page .tt-careers {
+          padding: 24px 18px;
+        }
+
+        .about-page .tt-careers-inner {
+          grid-template-columns: minmax(0, 1fr);
+        }
+
+        .about-page .tt-careers-photo,
+        .about-page .tt-careers-photo img {
+          min-height: 0;
+          height: 120px;
+        }
+
+        .about-page .tt-careers-copy {
+          padding: 22px 20px 24px;
+        }
+
+        .about-page .tt-careers-link {
+          width: 100%;
+          text-align: center;
+        }
+      }
+    </style>
+    
+
+
+  </main>
+  <div class="tt-footer-banners">
+  <section class="tt-foot-careers" id="careers" aria-labelledby="tt-shared-careers-title">
+    <div class="container-site tt-foot-careers-inner">
+      <div>
+        <p class="tt-foot-kicker">Grow with Tropic Treasure</p>
+        <h2 id="tt-shared-careers-title">Career Opportunities</h2>
+        <p>We’re not recruiting at present. Stay in touch for future opportunities.</p>
+      </div>
+      <a class="tt-foot-button" href="https://wa.me/447777306396?text=Hello%20Tropic%20Treasure%2C%20I%20am%20interested%20in%20future%20career%20opportunities.%20May%20I%20share%20my%20background%20with%20you%3F" target="_blank" rel="noopener noreferrer">Contact us on WhatsApp <span aria-hidden="true">↗</span></a>
+    </div>
+  </section>
+  <section class="tt-foot-trade" id="trade-enquiry" aria-label="Wholesale enquiries on WhatsApp">
+    <div class="container-site tt-foot-trade-inner">
+      <div>
+        <p class="tt-foot-kicker">Connect on WhatsApp</p>
+        <h2>Need a <span>Wholesale Quote?</span></h2>
+        <p>Chat with our trade team about pricing, product details and availability.</p>
+        <a class="tt-foot-button" href="https://wa.me/447777306396" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M20.4 16.5A9 9 0 1 0 4 16.6L3 21l4.5-1a9 9 0 0 0 12.9-3.5ZM9 8l-1 1c0 3 3 6 6 7l2-2-3-2-1 1-2-2 1-1-2-2Z"/></svg> Send us a message <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+  </section>
+</div>
+<footer id="tt-site-footer" class="tt-footer tt-footer-editorial" aria-label="Tropic Treasure footer">
+  <div class="tt-footer-spice"><img src="assets/aromatic-spice-herbs.webp" alt="India-origin spices" loading="lazy"
+            width="260" height="260"></div>
+  <div class="container-site tt-foot-details">
+    <div class="tt-foot-brand">
+      <p class="tt-foot-kicker">About us</p>
+      <a href="index.html" class="tt-foot-wordmark"><img src="assets/tt-mark.webp" width="44" height="44" loading="lazy" alt=""><span>Tropic <strong>Treasure</strong></span></a>
+      <p>From Soil to Shelf, Built to Be Trusted.</p>
+    </div>
+    <div>
+      <h2>Phone</h2>
+      <div class="tt-foot-contact"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M5 3h4l2 5-3 2a12 12 0 0 0 6 6l2-3 5 2v4a2 2 0 0 1-2 2C10 21 3 14 3 5a2 2 0 0 1 2-2Z"/></svg><p><a href="tel:+918156902116">+91 81569 02116</a><small>India</small></p></div>
+      <div class="tt-foot-contact"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M5 3h4l2 5-3 2a12 12 0 0 0 6 6l2-3 5 2v4a2 2 0 0 1-2 2C10 21 3 14 3 5a2 2 0 0 1 2-2Z"/></svg><p><a href="tel:+447777306396">+44 7777 306396</a><small>United Kingdom</small></p></div>
+    </div>
+    <div>
+      <h2>Address</h2>
+      <div class="tt-foot-contact"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 11-8 11s-8-5-8-11a8 8 0 0 1 16 0Zm-5 0a3 3 0 1 0-6 0 3 3 0 0 0 6 0Z"/></svg><div><strong>India</strong><p><strong>Tropic Treasure Exim (OPC) Private Limited</strong><br>4/310/C Thalayolaparambu,<br>Kottayam,
+            Kerala 686605</p></div></div>
+      <div class="tt-foot-contact"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 11-8 11s-8-5-8-11a8 8 0 0 1 16 0Zm-5 0a3 3 0 1 0-6 0 3 3 0 0 0 6 0Z"/></svg><div><strong>United Kingdom</strong><p><strong>Tropic Treasure Limited</strong><br>Ilford, Essex IG2 6PL,<br>United Kingdom</p></div></div>
+    </div>
+    <div>
+      <h2>Email</h2>
+      <div class="tt-foot-contact"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><path d="M3 5h18v14H3zM3 6l9 7 9-7"/></svg><p><a href="mailto:info@tropictreasure.com">info@tropictreasure.com</a><small>General and trade enquiries</small></p></div><p class="tt-foot-faq"><a href="faq.html">Frequently Asked Questions <span aria-hidden="true">→</span></a></p>
+    </div>
+  </div>
+  <div class="container-site tt-foot-links">
+    <div class="tt-foot-social"><strong>Follow us</strong><a href="https://www.linkedin.com/in/tintu-pillai-7722283a8/" target="_blank" rel="noopener noreferrer" aria-label="Tintu Pillai, Managing Director, on LinkedIn (opens new tab)" title="Tintu Pillai · MD LinkedIn"><span aria-hidden="true">in</span></a><a href="https://www.instagram.com/tropictreasure.co/" target="_blank" rel="noopener noreferrer" aria-label="Tropic Treasure on Instagram (opens new tab)" title="Instagram"><span aria-hidden="true">◎</span></a><a href="https://www.threads.com/@tropictreasure.co" target="_blank" rel="noopener noreferrer" aria-label="Tropic Treasure on Threads (opens new tab)" title="Threads"><span aria-hidden="true">@</span></a></div>
+    <nav aria-label="Footer navigation">
+      <a href="index.html">Home</a><a href="about.html">About Us</a><a href="products.html">Our Products</a>
+      <a href="quality.html">Quality &amp; Sourcing</a><a href="trade.html#enquiry">Trade Enquiry</a><a href="trade.html">Contact Us</a>
+    <a href="journal.html">Journal</a></nav>
+  </div>
+  <div class="container-site tt-foot-legal">
+    <p>© 2026 Tropic Treasure. All rights reserved.</p>
+    <nav aria-label="Legal information"><a href="privacy.html">Privacy Policy</a><a href="cookies.html">Cookie Policy</a><a href="terms.html">Terms of Use</a></nav>
+  </div>
+</footer>
+  <script src="script.js?v=navbar-logo-v3-20261026" defer></script>
+
+  <script>
+    (() => {
+      const collage = document.querySelector('.ab-collage');
+      if (!collage) return;
+      const main = collage.querySelector('.ab-collage-main img');
+      const small = collage.querySelector('.ab-collage-small img');
+      const caption = collage.querySelector('figcaption');
+      if (!main || !small) return;
+      const original = [main, small].map(img => ({ src: img.getAttribute('src'), alt: img.alt }));
+      const originalCaption = caption ? caption.textContent : '';
+      let hovering = false;
+      const update = () => {
+        const swapped = hovering || collage.contains(document.activeElement);
+        [main, small].forEach((img, index) => {
+          const image = original[swapped ? 1 - index : index];
+          img.src = image.src; img.alt = image.alt;
+        });
+        if (caption) caption.textContent = swapped
+          ? 'Origin perspective / Cashew preparation' : originalCaption;
+      };
+      collage.addEventListener('pointerenter', event => {
+        if (event.pointerType === 'touch') return;
+        hovering = true; update();
+      });
+      collage.addEventListener('pointerleave', () => { hovering = false; update(); });
+      collage.addEventListener('pointercancel', () => { hovering = false; update(); });
+      collage.addEventListener('focusin', update);
+      collage.addEventListener('focusout', () => requestAnimationFrame(update));
+    })();
+  </script>
+
+<script>
+/* Move the shared WhatsApp copy out from the aromatic spice artwork. */
+(() => {
+  const section = document.querySelector('.tt-shared-footer .tt-foot-trade');
+  const copy = section?.querySelector('.tt-foot-trade-inner > div');
+  const spice = document.querySelector('.tt-shared-footer #tt-site-footer > .tt-footer-spice');
+  if (!copy || !spice) return;
+
+  const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
+  let frame = 0;
+  let startX = 0;
+  let startY = 0;
+  let finishTop = 0;
+  let focused = false;
+
+  const clear = () => {
+    copy.style.removeProperty('transform');
+    copy.style.removeProperty('transform-origin');
+    copy.style.removeProperty('opacity');
+    copy.style.removeProperty('will-change');
+  };
+
+  const draw = () => {
+    frame = 0;
+    if (reducedMotion.matches || focused) {
+      clear();
+      return;
+    }
+    const startTop = innerHeight * .78;
+    const distance = Math.max(1, startTop - finishTop);
+    const progress = Math.max(0, Math.min(1,
+      (startTop - section.getBoundingClientRect().top) / distance));
+    if (progress === 1) {
+      clear();
+      return;
+    }
+    const eased = progress * progress * (3 - 2 * progress);
+    const remaining = 1 - eased;
+    copy.style.transformOrigin = 'left center';
+    copy.style.transform = `translate3d(${startX * remaining}px, ${startY * remaining}px, 0) scale(${1 - .16 * remaining})`;
+    copy.style.opacity = String(.2 + .8 * Math.min(1, progress / .75));
+    copy.style.willChange = 'transform, opacity';
+  };
+
+  const schedule = () => {
+    if (!frame) frame = requestAnimationFrame(draw);
+  };
+
+  const measure = () => {
+    clear();
+    const destination = copy.getBoundingClientRect();
+    const origin = spice.getBoundingClientRect();
+    startX = origin.left + origin.width / 2 -
+      (destination.left + Math.min(140, destination.width * .3));
+    startY = origin.top + origin.height * .3 - destination.top;
+    // Finish before the scroll limit even on short screens.
+    const maxScroll = Math.max(0, document.documentElement.scrollHeight - innerHeight);
+    const sectionTop = section.getBoundingClientRect().top + scrollY;
+    finishTop = Math.min(innerHeight * .68,
+      Math.max(innerHeight * .25, sectionTop - maxScroll + 12));
+    schedule();
+  };
+
+  addEventListener('scroll', schedule, { passive: true });
+  addEventListener('resize', measure, { passive: true });
+  addEventListener('load', measure, { once: true });
+  reducedMotion.addEventListener('change', measure);
+  copy.addEventListener('focusin', () => {
+    focused = true;
+    clear();
+  });
+  copy.addEventListener('focusout', event => {
+    if (!copy.contains(event.relatedTarget)) {
+      focused = false;
+      schedule();
+    }
+  });
+  if (document.fonts?.ready) document.fonts.ready.then(measure);
+  measure();
+})();
+</script>
+<script src="shared-header.js?v=readable-spacing-20261111" defer></script></body>
+
+</html>
